@@ -443,6 +443,10 @@ li {
   align-items: center;
   /* margin: 1vw; */
   position: absolute;
+  transition: all ease .8s;
+
+  z-index: 10;
+  opacity: 1;
 }
 .imgg2_Sw2 {
   width: 42vh;
@@ -452,15 +456,18 @@ li {
   align-items: center;
   /* margin: 1vw; */
   /* position: absolute; */
-  transition: all ease 0.3s;
-}
-.imgg2_Sw2:hover {
-  /* transform: scale(1.1); */
+  transition: all ease .7s;
+  opacity: 1;
 }
 .imgg_Sw2:hover {
+  /* transform: scale(1.1); */
+  opacity: 0;
+}
+.imgg2_Sw2:hover {
   /* background-color: aqua; */
   /* transform: scale(1.05); */
   display: none;
+  opacity: 1;
 }
 .itm_name_Sw2 {
   padding: 0vw 1.5vw;
