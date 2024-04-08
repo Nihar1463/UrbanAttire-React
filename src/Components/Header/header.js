@@ -16,7 +16,7 @@ function Head() {
           </p>
         </div>
         <div id="hcenter">
-          <Link to="/homepage"><img src={Logo} alt="image_logo" id="logo" /></Link>
+          <Link to="/UrbanAttrire-React"><img src={Logo} alt="image_logo" id="logo" /></Link>
         </div>
         <div id="hright">
           <div class="dropdown">

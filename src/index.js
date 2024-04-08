@@ -14,17 +14,17 @@ import Swiper4 from "./Page/swiper4";
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/UrbanAttrire-React",
     element: <App />,
   },
   {
     path: "/swip1",
     element: <Swip_p1 />,
   },
-  {
-    path: "/homepage",
-    element: <Homeconts />,
-  },
+  // {
+  //   path: "/homepage",
+  //   element: <Homeconts />,
+  // },
   {
     path: "/white",
     element: <Swiper2 />,
