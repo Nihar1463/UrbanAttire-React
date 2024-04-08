@@ -1,0 +1,10 @@
+#cont6 {
+  background: url(../image/cont6.jpg);
+  height: 80vh;
+  width: 100%;
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  filter: brightness(70%);
+}
