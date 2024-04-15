@@ -6,7 +6,9 @@ footer {
   #ft1 {
     height: 20vh;
     width: 100%;
-    background-color: #0f2c66;
+    /* background-color: #0f2c66; */
+    background-color: #6A5B4B;
+    background-color: #917d5eda;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -24,6 +26,7 @@ footer {
     width: 100%;
     /* background-color: #b73030; */
     padding: 2vw 5vw;
+    background-color: #fffdfb;
   }
   .ft2_item1 {
     width: 23%;

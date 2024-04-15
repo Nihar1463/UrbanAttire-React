@@ -24,11 +24,11 @@ function Swip_p1() {
           <img src={Imgg} alt="" id="Sw_img1_Sw1" />
         </div>
         <div class="product_C2_Sw1">
-          <div class="content_Sw1">
-            <div class="items_Sw1">
-              <div class="itmImg_Sw1">
-                <img src={Imgg1} alt="" class="imgg_Sw1" />
-                <img src={Imgg11} alt="" class="imgg2_Sw1" />
+          <div class="content_Sw11">
+            <div class="items_Sw11">
+              <div class="itmImg_Sw11">
+                <img src={Imgg1} alt="" class="imgg_Sw11" />
+                <img src={Imgg11} alt="" class="imgg2_Sw11" />
               </div>
               <div class="itm_name_Sw1">
                 <h3>The Short Sleeve Carter</h3>
@@ -37,10 +37,10 @@ function Swip_p1() {
                 <button class="cartbtn_Sw1">Add To Cart</button>
               </div>
             </div>
-            <div class="items_Sw1">
-              <div class="itmImg_Sw1">
-                <img src={Imgg2} alt="" class="imgg_Sw1" />
-                <img src={Imgg22} alt="" class="imgg2_Sw1" />
+            <div class="items_Sw11">
+              <div class="itmImg_Sw11">
+                <img src={Imgg2} alt="" class="imgg_Sw11" />
+                <img src={Imgg22} alt="" class="imgg2_Sw11" />
               </div>
               <div class="itm_name_Sw1">
                 <h3>The Short Sleeve California</h3>
@@ -48,10 +48,10 @@ function Swip_p1() {
                 <button class="cartbtn_Sw1">Add To Cart</button>
               </div>
             </div>
-            <div class="items_Sw1">
-              <div class="itmImg_Sw1">
-                <img src={Imgg3} alt="" class="imgg_Sw1" />
-                <img src={Imgg33} alt="" class="imgg2_Sw1" />
+            <div class="items_Sw11">
+              <div class="itmImg_Sw11">
+                <img src={Imgg3} alt="" class="imgg_Sw11" />
+                <img src={Imgg33} alt="" class="imgg2_Sw11" />
               </div>
               <div class="itm_name_Sw1">
                 <h3>The Short Sleeve Maxico</h3>

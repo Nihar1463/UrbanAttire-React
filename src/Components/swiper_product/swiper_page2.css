@@ -33,7 +33,7 @@ body {
   /* height: 100vh; */
   padding-bottom: 5vw;
   /* background-color: #0f2c66; */
-padding-top: 4vw;
+  padding-top: 4vw;
   /* background-color: antiquewhite; */
 }
 #Cnt1_Left_Sw2 {
@@ -44,7 +44,7 @@ padding-top: 4vw;
 .swiper {
   width: 100%;
   /* height: 80vh; */
-/* } 
+  /* } 
 
 .swiper-slide_Sw2 {
   /* text-align: center; */
@@ -443,7 +443,7 @@ li {
   align-items: center;
   /* margin: 1vw; */
   position: absolute;
-  transition: all ease .8s;
+  transition: all ease 0.5s;
 
   z-index: 10;
   opacity: 1;
@@ -456,7 +456,7 @@ li {
   align-items: center;
   /* margin: 1vw; */
   /* position: absolute; */
-  transition: all ease .7s;
+  transition: all ease 1s;
   opacity: 1;
 }
 .imgg_Sw2:hover {

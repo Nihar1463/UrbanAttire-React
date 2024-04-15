@@ -29,10 +29,13 @@ import II44 from "../image/swiper_img/recomd11.webp";
 // import required modules
 import { Navigation, Pagination, Mousewheel, Keyboard } from "swiper/modules";
 import { Link } from "react-router-dom";
+import Head from "../Header/header";
+import Footer from "../Footer/footer";
 
 function Swip_p2_blue() {
   return (
     <>
+    <Head/>
       <div id="Cnt1_Sw2">
         <Swiper
           cssMode={true}
@@ -40,6 +43,7 @@ function Swip_p2_blue() {
           pagination={true}
           mousewheel={true}
           keyboard={true}
+          loop={true}
           modules={[Navigation, Pagination, Mousewheel, Keyboard]}
           className="mySwiper"
         >
@@ -285,6 +289,7 @@ function Swip_p2_blue() {
           </div>
         </div>
       </div>
+      <Footer/>
     </>
   );
 }

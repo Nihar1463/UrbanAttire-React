@@ -2,7 +2,7 @@ import "./cont3.css";
 import img1 from "../image/swiper1.webp";
 import img2 from "../image/swiper2.webp";
 import img3 from "../image/swiper5.webp";
-import img4 from "../image/swiper3.webp";
+import img4 from "../image/swiper_img/swiper3.webp";
 import img5 from "../image/swiper_img/swip4.webp";
 // import Cont333 from "../image/cont333.webp";
 import React, { useRef, useState } from "react";
@@ -72,7 +72,7 @@ function Cont3() {
                 BUILD <br />
                 TO EXPLORE
               </h2>
-              <button class="swipbtn">SHOP NOW</button>
+             <Link to="/zipper"> <button class="swipbtn">SHOP NOW</button></Link>
             </div>
 
             <img src={img3} alt="" />
@@ -85,7 +85,7 @@ function Cont3() {
               <h2 class="swip_h2">
                 THE EFFORTLESS <br /> STEPLE
               </h2>
-              <button class="swipbtn">SHOP NOW</button>
+              <Link to="/hoodie"><button class="swipbtn">SHOP NOW</button></Link>
             </div>
 
             <img src={img4} alt="" />

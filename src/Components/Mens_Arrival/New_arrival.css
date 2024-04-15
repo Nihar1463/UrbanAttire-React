@@ -1,0 +1,226 @@
+#mn1 {
+  width: 100%;
+  padding-top: 4vw;
+}
+#ct1 {
+  width: 100%;
+  height: 45vh;
+  background-color: rgb(182, 123, 46);
+  position: relative;
+}
+#ct1_img {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+#ct1 p {
+  position: absolute;
+  color: rgba(240, 248, 255, 0.95);
+  /* font-family: "Mohave", sans-serif; */
+
+  font-family: "Courier New", Courier, monospace;
+  font-size: 4.5vw;
+
+  padding: 6vw;
+  font-weight: 400;
+}
+#ct2 {
+  width: 100%;
+  /* height: 150vh; */
+  /* background-color: bisque; */
+  display: flex;
+  position: relative;
+}
+#ct2 #verticle_div {
+  width: 15%;
+  height: 100vh;
+  background-color: #3d2d1e26;
+  padding: 5vw 1.5vw;
+  position: sticky;
+
+  /* margin-left: 1vw; */
+  /* position: relative; */
+  top: 0;
+}
+#ct2 #verticle_div #fisrt_home {
+  width: 100%;
+  height: 5vh;
+  /* background-color: #fff; */
+  display: flex;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+#ct2 #verticle_div #fisrt_home #home {
+  padding-right: 1vw;
+  font-size: 1.2vw;
+  font-family: "Mohave", sans-serif;
+}
+#ct2 #verticle_div #list_lower {
+  /* margin-top: 1.5vw; */
+  /* background-color: brown; */
+  height: 20vh;
+  width: 100%;
+}
+
+#ct2 #verticle_div #list_lower h4 {
+  font-size: 1vw;
+  color: #4c7fbe;
+  font-weight: 600;
+  padding-bottom: 0.8vw;
+  /* font-family: "Rufina", serif; */
+  /* font-family: "Mohave", sans-serif; */
+  font-family: "Rufina", serif;
+}
+#ct2 #verticle_div #list_lower p {
+  font-size: 0.9vw;
+  /* color: #6289b5; */
+  font-weight: 600;
+  padding-left: 0.5vw;
+  padding-bottom: 0.7vw;
+  /* font-family: "Mohave", sans-serif; */
+  font-family: "Rufina", serif;
+}
+
+#ct2 #verticle_div #list_lower p:hover {
+  color: #6289b5;
+}
+/* #ct2 #right_div {
+  width: 85%;
+  height: 100%;
+  background-color: blueviolet;
+}
+#ct2 #right_div {
+  text-decoration: none;
+  
+} */
+.product_C2_arrrival {
+  /* display: flex; */
+  /* background-color: beige; */
+  width: 100%;
+  position: relative;
+  /* justify-content: center; */
+}
+.content_arrrival {
+  display: flex;
+
+  width: 100%;
+  /* max-width: 80%; */
+  flex-wrap: wrap;
+  flex-direction: row;
+  /* background-color: #b73030; */
+
+  padding: 2vw 0vw;
+}
+.items_Sw1 {
+  width: 39vh;
+  /* background-color: #f3f3f3; */
+  margin: 1.31vw;
+  border-radius: 1vw;
+  cursor: pointer;
+}
+.itmImg_Sw1 {
+  padding: 1vw 0vw;
+  justify-content: center;
+  display: flex;
+  /* position: absolute; */
+}
+
+.imgg_Sw1 {
+  width: 39vh;
+  height: 39vh;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  /* margin: 1vw; */
+  position: absolute;
+  transition: all ease 0.5s;
+
+  z-index: 10;
+  opacity: 1;
+}
+.imgg2_Sw1 {
+  width: 39vh;
+  height: 39vh;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  /* margin: 1vw; */
+  /* position: absolute; */
+  transition: all ease 1s;
+  opacity: 1;
+}
+.imgg_Sw1:hover {
+  /* transform: scale(1.1); */
+  opacity: 0;
+}
+.imgg2_Sw1:hover {
+  /* background-color: aqua; */
+  /* transform: scale(1.05); */
+  display: none;
+  opacity: 1;
+}
+.itm_name_Sw1 {
+  padding: 0vw 1.5vw;
+  text-align: center;
+}
+.itm_name_Sw1 p {
+  font-size: 1.7vw;
+  margin-top: 0.6vw;
+  color: #0f2c66;
+  font-weight: 500;
+  /* display: flex; */
+  /* padding-right: 5vw; */
+  /* font-family: "Butterfly Kids", cursive; */
+
+  font-family: "Mohave", sans-serif;
+}
+.itm_name_Sw1 h3 {
+  font-size: 1.4vw;
+  margin-top: 0.6vw;
+  font-family: "Mohave", sans-serif;
+  font-weight: 400;
+}
+.cartbtn_Sw1 {
+  padding: 1vw;
+  border-radius: 1.2vw;
+  margin-top: 0.5vw;
+  font-size: 1.1vw;
+  border: none;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    180deg,
+    rgb(224, 224, 224) 0%,
+    rgb(255, 255, 255) 51%,
+    rgb(223, 222, 222) 89%
+  );
+  cursor: pointer;
+}
+#ppp
+{
+  position: absolute;
+  background-color: #b73030c8;
+  width: 6vw;
+  /* height: 2vw; */
+  z-index: 100;
+  font-size: 1vw;
+  /* transform: ; */
+  transform: translateX(-7.1vw) translateY(1vw)  rotateX(10deg) rotateY(-10deg) rotateZ(-40deg);
+  color: white;
+  font-family: "Mohave", sans-serif;
+  text-align: center;
+
+}
+ #h22
+{
+  /* background-color: #cfb081; */
+  padding: 2vw;
+  /* width: 100%; */
+  /* height: 2vw; */
+  font-family: "Mohave", sans-serif;
+  /* font-family: "Rufina", serif; */
+  color:#B73030;
+  font-size: 2.5vw;
+
+}

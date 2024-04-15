@@ -6,27 +6,34 @@ function Head() {
     <>
       <header>
         <div id="hleft">
-          <p class="p">
-            <i class="fa-solid fa-user"></i>
-            Login
-          </p>
-          <p class="p">
-            <i class="fa-solid fa-location-dot"></i>
-            Location
-          </p>
+          <Link to="/Login">
+            <p class="p">
+              <i class="fa-solid fa-user"></i>
+              Login
+            </p>
+          </Link>
+          <Link to="/Location">
+            <p class="p">
+              <i class="fa-solid fa-location-dot"></i>
+              Location
+            </p>
+          </Link>
         </div>
         <div id="hcenter">
-          <Link to="/UrbanAttrire-React"><img src={Logo} alt="image_logo" id="logo" /></Link>
+          <Link to="/UrbanAttrire-React">
+            <img src={Logo} alt="image_logo" id="logo" />
+          </Link>
         </div>
         <div id="hright">
           <div class="dropdown">
             <button class="dropbtn">Men</button>
             <div class="dropdown-content">
-              <a href="#">Men's New Arrival </a>
-              <a href="#">Men's Best Seller</a>
+              <Link to="/New_Arrival">Men's New Arrival </Link>
+
+              <Link to="/All_Shirt">Men's Shirts</Link>
+              <a href="#">Men's T-Shirts</a>
               <a href="#">Men's Jeans</a>
               <a href="#">Men's shorts</a>
-              <a href="#">Men's Jackets</a>
             </div>
           </div>
           <div class="dropdown">

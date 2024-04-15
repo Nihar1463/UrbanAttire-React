@@ -1,4 +1,4 @@
-import "./swiper_page1.css";
+import "./swiper_page4_jeans.css";
 import Imgg from "../image/swiper_img/sw4.webp";
 import Imgg1 from "../image/swiper_img/sw4444.jpg";
 import Imgg11 from "../image/swiper_img/sw4_p11.jpg";
@@ -21,7 +21,64 @@ import Imgg99 from "../image/swiper_img/sw4_p99.jpg";
 import Imgg10 from "../image/swiper_img/sw4_lower.webp";
 import Footer from "../Footer/footer";
 import Head from "../Header/header";
+import { Link } from "react-router-dom";
 function Swip_p4() {
+  const data = [
+    {
+      img: Imgg1,
+      img2: Imgg11,
+      name: "The Short Sleeve Carter",
+      price: "₹1499.00",
+    },
+    {
+      img: Imgg2,
+      img2: Imgg22,
+      name: "The Short Sleeve Carter",
+      price: "₹1499.00",
+    },
+    {
+      img: Imgg3,
+      img2: Imgg33,
+      name: "The Short Sleeve Carter",
+      price: "₹1499.00",
+    },
+    {
+      img: Imgg4,
+      img2: Imgg44,
+      name: "The Short Sleeve Carter",
+      price: "₹1499.00",
+    },
+    {
+      img: Imgg5,
+      img2: Imgg55,
+      name: "The Short Sleeve Carter",
+      price: "₹1499.00",
+    },
+    {
+      img: Imgg6,
+      img2: Imgg66,
+      name: "The Short Sleeve Carter",
+      price: "₹1499.00",
+    },
+    {
+      img: Imgg7,
+      img2: Imgg77,
+      name: "The Short Sleeve Carter",
+      price: "₹1499.00",
+    },
+    {
+      img: Imgg8,
+      img2: Imgg88,
+      name: "The Short Sleeve Carter",
+      price: "₹1499.00",
+    },
+    {
+      img: Imgg9,
+      img2: Imgg99,
+      name: "The Short Sleeve Carter",
+      price: "₹1499.00",
+    },
+  ];
   return (
     <>
       <Head />
@@ -34,107 +91,22 @@ function Swip_p4() {
           <img src={Imgg} alt="" id="Sw_img1_Sw1" />
         </div>
         <div class="product_C2_Sw1">
-          <div class="content_Sw1">
-            <div class="items_Sw1">
-              <div class="itmImg_Sw1">
-                <img src={Imgg1} alt="" class="imgg_Sw1" />
-                <img src={Imgg11} alt="" class="imgg2_Sw1" />
+          <div class="content_Sw11">
+            {data.map((test, index) => (
+              <div class="items_Sw11" key={index}>
+                <Link to={test.url}>
+                <div class="itmImg_Sw11">
+                  <img src={test.img} alt="" class="imgg_Sw11" />
+                  <img src={test.img2} alt="" class="imgg2_Sw11" />
+                </div>
+                </Link>
+                <div class="itm_name_Sw1">
+                  <h3>{test.name}</h3>
+                  <p>{test.price}</p>
+                  <button class="cartbtn_Sw1">Add To Cart</button>
+                </div>
               </div>
-              <div class="itm_name_Sw1">
-                <h3>The Short Sleeve Carter</h3>
-                <p>₹1499.00</p>
-
-                <button class="cartbtn_Sw1">Add To Cart</button>
-              </div>
-            </div>
-            <div class="items_Sw1">
-              <div class="itmImg_Sw1">
-                <img src={Imgg2} alt="" class="imgg_Sw1" />
-                <img src={Imgg22} alt="" class="imgg2_Sw1" />
-              </div>
-              <div class="itm_name_Sw1">
-                <h3>The Short Sleeve California</h3>
-                <p>₹1299.00</p>
-                <button class="cartbtn_Sw1">Add To Cart</button>
-              </div>
-            </div>
-            <div class="items_Sw1">
-              <div class="itmImg_Sw1">
-                <img src={Imgg3} alt="" class="imgg_Sw1" />
-                <img src={Imgg33} alt="" class="imgg2_Sw1" />
-              </div>
-              <div class="itm_name_Sw1">
-                <h3>The Short Sleeve Maxico</h3>
-                <p>₹1299.00</p>
-                <button class="cartbtn_Sw1">Add To Cart</button>
-              </div>
-            </div>
-            <div class="items_Sw1">
-              <div class="itmImg_Sw1">
-                <img src={Imgg9} alt="" class="imgg_Sw1" />
-                <img src={Imgg99} alt="" class="imgg2_Sw1" />
-              </div>
-              <div class="itm_name_Sw1">
-                <h3>The Short Sleeve Maxico</h3>
-                <p>₹1299.00</p>
-                <button class="cartbtn_Sw1">Add To Cart</button>
-              </div>
-            </div>
-            <div class="items_Sw1">
-              <div class="itmImg_Sw1">
-                <img src={Imgg4} alt="" class="imgg_Sw1" />
-                <img src={Imgg44} alt="" class="imgg2_Sw1" />
-              </div>
-              <div class="itm_name_Sw1">
-                <h3>The Short Sleeve Maxico</h3>
-                <p>₹1299.00</p>
-                <button class="cartbtn_Sw1">Add To Cart</button>
-              </div>
-            </div>
-            <div class="items_Sw1">
-              <div class="itmImg_Sw1">
-                <img src={Imgg5} alt="" class="imgg_Sw1" />
-                <img src={Imgg55} alt="" class="imgg2_Sw1" />
-              </div>
-              <div class="itm_name_Sw1">
-                <h3>The Short Sleeve Maxico</h3>
-                <p>₹1299.00</p>
-                <button class="cartbtn_Sw1">Add To Cart</button>
-              </div>
-            </div>
-            <div class="items_Sw1">
-              <div class="itmImg_Sw1">
-                <img src={Imgg6} alt="" class="imgg_Sw1" />
-                <img src={Imgg66} alt="" class="imgg2_Sw1" />
-              </div>
-              <div class="itm_name_Sw1">
-                <h3>The Short Sleeve Maxico</h3>
-                <p>₹1299.00</p>
-                <button class="cartbtn_Sw1">Add To Cart</button>
-              </div>
-            </div>
-            <div class="items_Sw1">
-              <div class="itmImg_Sw1">
-                <img src={Imgg7} alt="" class="imgg_Sw1" />
-                <img src={Imgg77} alt="" class="imgg2_Sw1" />
-              </div>
-              <div class="itm_name_Sw1">
-                <h3>The Short Sleeve Maxico</h3>
-                <p>₹1299.00</p>
-                <button class="cartbtn_Sw1">Add To Cart</button>
-              </div>
-            </div>
-            <div class="items_Sw1">
-              <div class="itmImg_Sw1">
-                <img src={Imgg8} alt="" class="imgg_Sw1" />
-                <img src={Imgg88} alt="" class="imgg2_Sw1" />
-              </div>
-              <div class="itm_name_Sw1">
-                <h3>The Short Sleeve Maxico</h3>
-                <p>₹1299.00</p>
-                <button class="cartbtn_Sw1">Add To Cart</button>
-              </div>
-            </div>
+            ))}
           </div>
         </div>
         <div id="C3_Sw1">
