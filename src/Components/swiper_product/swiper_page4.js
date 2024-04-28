@@ -1,7 +1,7 @@
 import React, { useRef, useState } from "react";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
-
+import { ScrollRestoration } from "react-router-dom";
 // Import Swiper styles
 import "swiper/css";
 import "swiper/css/navigation";
@@ -286,6 +286,7 @@ function Swip_p5() {
           </div>
         </div>
       </div>
+      <ScrollRestoration />
     </>
   );
 }

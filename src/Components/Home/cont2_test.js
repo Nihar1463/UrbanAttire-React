@@ -9,82 +9,83 @@ import Item4 from "../image/item4.webp";
 import Item5 from "../image/item5.webp";
 import Item6 from "../image/item6.webp";
 import Item66 from "../image/item66.webp";
+import Imgg11 from "../image/swiper_img/item11.webp";
+import Imgg1 from "../image/swiper_img/itm1.webp";
+
+import Imgg1srt from "../image/Men_arrival/shirt/Srt1.webp";
+import Imgg11srt from "../image/Men_arrival/shirt/Srt11.webp";
+import Imgg3srt from "../image/Men_arrival/shirt/srt3.webp";
+import Imgg33srt from "../image/Men_arrival/shirt/srt33.webp";
+import Imgg4srt from "../image/Men_arrival/shirt/srt4.webp";
+import Imgg44srt from "../image/Men_arrival/shirt/srt44.webp";
+import Imgg5srt from "../image/Men_arrival/shirt/srt5.webp";
+import Imgg55srt from "../image/Men_arrival/shirt/srt55.webp";
+import Imgg6srt from "../image/Men_arrival/shirt/srt6.webp";
+import Imgg66srt from "../image/Men_arrival/shirt/srt66.webp";
+import Imgg7srt from "../image/Men_arrival/shirt/srt7.webp";
+import Imgg77srt from "../image/Men_arrival/shirt/srt77.jpg";
+
+import { Link } from "react-router-dom";
+
 function Cont2_test() {
+  const New_Arrival = [
+    {
+      img: Imgg1srt,
+      img2: Imgg11srt,
+      name: "The Short Sleeve Carter",
+      price: "₹1499.00",
+    },
+    {
+      img: Imgg3srt,
+      img2: Imgg33srt,
+      name: "The Short Sleeve Carter",
+      price: "₹1499.00",
+      arrival: "New Arrival",
+    },
+    {
+      img: Imgg4srt,
+      img2: Imgg44srt,
+      name: "The Short Sleeve Carter",
+      price: "₹1499.00",
+    },
+    {
+      img: Imgg1,
+      img2: Imgg11,
+      name: "The Short Sleeve Carter",
+      price: "₹1499.00",
+    },
+   {
+      img: Imgg6srt,
+      img2: Imgg66srt,
+      name: "The Short Sleeve Carter",
+      price: "₹1499.00",
+      arrival: "New Arrival",
+    }, 
+  ];
   return (
     <>
       <div id="cont2">
-        <p id="para">BEST SELLING DENIM</p>
-        <div id="main_item">
-          <div class="items">
-            <img src={Item1} alt="" class="item_img1" />
-            <div id="seller">
-              <p>Best Seller</p>
-            </div>
-            <img src={Item11} alt="" class="item_img11" />
-            <div class="price">
-              <h3>Straight Leg Jean</h3>
-              <p>₹799.00</p>
-            </div>
-          </div>
-          <div class="items">
-            <img src={Item2} alt="" class="item_img1" />
-            <div id="seller">
-              <p>Best Seller</p>
-            </div>
+        <p id="para">BEST SELLING SHIRTS</p>
+        <div class="product_C2_arrrival ">
+          <div class="content_arrrival_cont2 ">
+            {New_Arrival.map((test, index) => (
+              <div class="items_Sw1_cont2" key={index}>
+                <div class="itmImg_Sw1_cont2">
+                  <div id="ppp_cont2">
+                    <p>{test.arrival}</p>
+                  </div>
+                  <img src={test.img} alt="" class="imgg_Sw1_cont2" />
 
-            <img src={Item22} alt="" class="item_img11" />
-            <div class="price">
-              <h3>Oversized Jacket</h3>
-              <p>₹999.00</p>
-            </div>
-          </div>
-          <div class="items">
-            <img src={Item3} alt="" class="item_img1" />
-            <div id="seller">
-              <p>Best Seller</p>
-            </div>
+                  <img src={test.img2} alt="" class="imgg2_Sw1_cont2" />
+                </div>
+                <div class="itm_name_Sw1_cont2">
+                  <h3>{test.name}</h3>
+                  <p>{test.price}</p>
 
-            <img src={Item33} alt="" class="item_img11" />
-            <div class="price">
-              <h3>Denim Fade Shorts</h3>
-              <p>₹599.00</p>
-            </div>
-          </div>
-          <div class="items">
-            <img src={Item4} alt="" class="item_img1" />
-            <div id="seller">
-              <p>Best Seller</p>
-            </div>
-
-            <img src={Item4} alt="" class="item_img11" />
-            <div class="price">
-              <h3>Skinny Jean</h3>
-              <p>₹699.00</p>
-            </div>
-          </div>
-          <div class="items">
-            <img src={Item5} alt="" class="item_img1" />
-            <div id="seller">
-              <p>Best Seller</p>
-            </div>
-
-            <img src={Item5} alt="" class="item_img11" />
-            <div class="price">
-              <h3>Balck Fade Jeans</h3>
-              <p>₹799.00</p>
-            </div>
-          </div>
-          <div class="items">
-            <img src={Item6} alt="" class="item_img1" />
-            <div id="seller">
-              <p>Best Seller</p>
-            </div>
-
-            <img src={Item66} alt="" class="item_img11" />
-            <div class="price">
-              <h3>Denim jacket</h3>
-              <p>₹999.00</p>
-            </div>
+                  <button class="cartbtn_Sw1_cont2">Add To Cart</button>
+                </div>
+              </div>
+            ))}
           </div>
         </div>
       </div>

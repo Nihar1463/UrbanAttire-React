@@ -1,5 +1,6 @@
 #cont6 {
   background: url(../image/cont6.jpg);
+  /* background: url(../image/con6video.mp4); */
   height: 80vh;
   width: 100%;
   position: relative;
@@ -8,3 +9,4 @@
   background-attachment: fixed;
   filter: brightness(70%);
 }
+

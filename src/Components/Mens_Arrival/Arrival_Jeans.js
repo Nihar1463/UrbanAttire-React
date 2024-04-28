@@ -7,31 +7,35 @@ import JEN2 from "../image/Men_arrival/Jeans/jen2.webp";
 import JEN22 from "../image/Men_arrival/Jeans/jen22.webp";
 import JEN3 from "../image/Men_arrival/Jeans/jen3.webp";
 import JEN33 from "../image/Men_arrival/Jeans/jen33.webp";
+import Ja1 from "../image/Men_arrival/Jeans/ja1.webp";
+import Ja12 from "../image/Men_arrival/Jeans/ja12.webp";
 
 import { Link } from "react-router-dom";
 import Head from "../Header/header";
 import Footer from "../Footer/footer";
 function Jeans_arrival() {
-  const New_Arrival = [
+  const Jeans = [
     {
-      img: JEN1,
-      img2: JEN11,
-      name: "The Short Sleeve Carter",
-      price: "₹1499.00",
+      id: 29,
+      img: Ja1,
+      img2: Ja12,
+      name: "The Democratic Jean",
+      price: "₹2500.00",
     },
     {
+      id: 30,
       img: JEN2,
       img2: JEN22,
-      name: "The Short Sleeve Carter",
-      price: "₹1499.00",
+      name: "The Morse Pant",
+      price: "₹3499.00",
     },
     {
+      id: 31,
       img: JEN3,
       img2: JEN33,
-      name: "The Short Sleeve Carter",
-      price: "₹1499.00",
+      name: "The Slim Selvage Jean ",
+      price: "₹2999.00",
     },
-    
   ];
   return (
     <>
@@ -71,19 +75,20 @@ function Jeans_arrival() {
           </div>
           <div class="product_C2_arrrival ">
             <div class="content_arrrival ">
-              {New_Arrival.map((test, index) => (
-                <div class="items_Sw1" key={index}>
+            {Jeans.map((product) => (
+                <div class="items_Sw1" key={product.id}>
                   <div class="itmImg_Sw1">
                     <div id="ppp">
                       <p>New Arrival</p>
                     </div>
-                    <img src={test.img} alt="" class="imgg_Sw1" />
-
-                    <img src={test.img2} alt="" class="imgg2_Sw1" />
+                    <Link to={`/product/${product.id}`}>
+                      <img src={product.img} alt="" class="imgg_Sw1" />
+                      <img src={product.img2} alt="" class="imgg2_Sw1" />
+                    </Link>
                   </div>
                   <div class="itm_name_Sw1">
-                    <h3>{test.name}</h3>
-                    <p>{test.price}</p>
+                    <h3>{product.name}</h3>
+                    <p>{product.price}</p>
 
                     <button class="cartbtn_Sw1">Add To Cart</button>
                   </div>
@@ -93,7 +98,7 @@ function Jeans_arrival() {
           </div>
         </div>
       </div>
-      <Footer/>
+      <Footer />
     </>
   );
 }

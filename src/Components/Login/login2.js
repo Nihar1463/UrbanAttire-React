@@ -13,7 +13,8 @@ function Login2() {
                 <h1>Create Account</h1>
                 <div class="social-container">
                   <a href="#" class="social">
-                    <i class="ri-facebook-fill"></i>
+                    {/* <i class="ri-facebook-fill"></i> */}
+                    <i class="fa-brands fa-facebook"></i>
                   </a>
                   <a href="#" class="social">
                     <i class="ri-google-fill"></i>
@@ -35,6 +36,7 @@ function Login2() {
                 <div class="social-container">
                   <a href="#" class="social">
                     <i class="ri-facebook-fill"></i>
+                    
                   </a>
                   <a href="#" class="social">
                     <i class="ri-google-fill"></i>

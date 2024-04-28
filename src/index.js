@@ -100,6 +100,10 @@ const router = createBrowserRouter([
     path: "/Login",
     element: <Login2 />,
   },
+  {
+    path: "/product/:id",
+    element: <Swiper2_blue />,
+  },
 ]);
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(

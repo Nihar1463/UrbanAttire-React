@@ -1,7 +1,7 @@
 import React, { useRef, useState } from "react";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
-
+import { ScrollRestoration } from "react-router-dom";
 // Import Swiper styles
 import "swiper/css";
 import "swiper/css/navigation";
@@ -95,11 +95,11 @@ function Swip_p2() {
                 </Link>
                 {/* </a> */}
               </div>
-              <div class="clr_Sw2">
+              {/* <div class="clr_Sw2">
                 <Link to="/blue">
                   <img src={I7} alt="" class="clr_img_Sw2" />
                 </Link>
-              </div>
+              </div> */}
             </div>
             <p>Size:XS-34</p>
             <div class="size_Sw2">
@@ -286,6 +286,7 @@ function Swip_p2() {
           </div>
         </div>
       </div>
+      <ScrollRestoration />
     </>
   );
 }

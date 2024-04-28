@@ -19,11 +19,14 @@ import New_arrival from "./Components/Mens_Arrival/New_arrival";
 import Arrival_new from "./Page/Arrival_new";
 import New_arrival_shirt from "./Page/Shirt_arrival";
 import New_arrival_Tshirt from "./Page/Tshirt_arrival";
+import Shirt_arrival from "./Components/Mens_Arrival/Arrival_Shrit";
 // import Login2 from "./Components/Login/login2";
 
 function App() {
   return (
     <>
+      {/* <Shirt_arrival /> */}
+      <Homeconts />
       {/* <Head /> */}
       {/* <Swiper2 /> */}
       {/* <Swiper4 /> */}
@@ -34,18 +37,17 @@ function App() {
       {/* <Swiper4/> */}
       {/* <Swiper5/> */}
       {/* <Swiper2_blue/> */}
-      <Homeconts /> 
-    {/* <New_arrival_shirt/> */}
-    {/* <New_arrival_Tshirt/> */}
+      {/* <Cont2_test/> */}
+      {/* <New_arrival_shirt/> */}
+      {/* <New_arrival_Tshirt/> */}
 
       {/* <New_arrival />    */}
       {/* <Arrival_new />  */}
       {/* <OverSized /> */}
       {/* <Jeans/> */}
-    {/* <Cont2_test/> */}
+      {/* <Cont2_test/> */}
       {/* <Footer /> */}
       {/* <Login2 /> */}
-      
     </>
   );
 }

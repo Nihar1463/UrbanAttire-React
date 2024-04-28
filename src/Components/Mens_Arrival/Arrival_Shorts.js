@@ -9,35 +9,42 @@ import Short22 from "../image/Men_arrival/short/short44.webp";
 import Short3 from "../image/Men_arrival/short/short5.webp";
 import Short33 from "../image/Men_arrival/short/short55.webp";
 import Short4 from "../image/Men_arrival/short/short6.webp";
+import Sh111 from "../image/Men_arrival/short/s1.webp";
+import Sh112 from "../image/Men_arrival/short/s12.webp";
+
 import Short44 from "../image/Men_arrival/short/short66.webp";
 import { Link } from "react-router-dom";
 import Head from "../Header/header";
 import Footer from "../Footer/footer";
 function Shorts_arrival() {
-  const New_Arrival = [
+  const Short = [
     {
+      id: 32,
       img: Short1,
       img2: Short11,
       name: "The Short Sleeve Carter",
       price: "₹1499.00",
     },
     {
+      id: 33,
       img: Short2,
       img2: Short22,
-      name: "The Short Sleeve Carter",
-      price: "₹1499.00",
+      name: "The Après Twill Short",
+    price: "₹1199.00",
     },
     {
+      id: 34,
       img: Short3,
       img2: Short33,
-      name: "The Short Sleeve Carter",
-      price: "₹1499.00",
+      name: "The Après White Short",
+      price: "₹1349.00",
     },
     {
-      img: Short4,
-      img2: Short44,
-      name: "The Short Sleeve Carter",
-      price: "₹1499.00",
+      id: 35,
+      img: Sh111,
+      img2: Sh112,
+      name: "The Après Twill Short",
+      price: "₹1199.00",
     },
   ];
   return (
@@ -78,19 +85,20 @@ function Shorts_arrival() {
           </div>
           <div class="product_C2_arrrival ">
             <div class="content_arrrival ">
-              {New_Arrival.map((test, index) => (
-                <div class="items_Sw1" key={index}>
+              {Short.map((product) => (
+                <div class="items_Sw1" key={product.id}>
                   <div class="itmImg_Sw1">
                     <div id="ppp">
                       <p>New Arrival</p>
                     </div>
-                    <img src={test.img} alt="" class="imgg_Sw1" />
-
-                    <img src={test.img2} alt="" class="imgg2_Sw1" />
+                    <Link to={`/product/${product.id}`}>
+                      <img src={product.img} alt="" class="imgg_Sw1" />
+                      <img src={product.img2} alt="" class="imgg2_Sw1" />
+                    </Link>
                   </div>
                   <div class="itm_name_Sw1">
-                    <h3>{test.name}</h3>
-                    <p>{test.price}</p>
+                    <h3>{product.name}</h3>
+                    <p>{product.price}</p>
 
                     <button class="cartbtn_Sw1">Add To Cart</button>
                   </div>

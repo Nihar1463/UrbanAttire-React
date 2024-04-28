@@ -1,6 +1,7 @@
-import React, { useRef, useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
+import { ScrollRestoration } from "react-router-dom";
 
 // Import Swiper styles
 import "swiper/css";
@@ -25,17 +26,27 @@ import II3 from "../image/swiper_img/item3.webp";
 import II33 from "../image/swiper_img/item33.webp";
 import II4 from "../image/swiper_img/recomd1.webp";
 import II44 from "../image/swiper_img/recomd11.webp";
-
-// import required modules
-import { Navigation, Pagination, Mousewheel, Keyboard } from "swiper/modules";
-import { Link } from "react-router-dom";
 import Head from "../Header/header";
 import Footer from "../Footer/footer";
+import { Navigation, Pagination, Mousewheel, Keyboard } from "swiper/modules";
+
+import {  itemData } from "../Mens_Arrival/Data";
+
+// import required modules
+import { Link, useParams } from "react-router-dom";
 
 function Swip_p2_blue() {
+  const [product, setProduct] = useState({});
+  const { id } = useParams();
+
+  useEffect(() => {
+    const filterProduct = itemData.filter((product) => product.id == id);
+    // console.log(filterProduct)
+    setProduct(filterProduct[0]);
+  }, [id]);
   return (
     <>
-    <Head/>
+      <Head />
       <div id="Cnt1_Sw2">
         <Swiper
           cssMode={true}
@@ -49,27 +60,28 @@ function Swip_p2_blue() {
         >
           <SwiperSlide>
             <div class="swiper-slide_Sw2">
-              <img src={I1} alt="" />
+              <img src={product.img} alt="" />
+            </div>
+          </SwiperSlide>
+
+          <SwiperSlide>
+            <div class="swiper-slide_Sw2">
+              <img src={product.img2} alt="" />
             </div>
           </SwiperSlide>
           <SwiperSlide>
             <div class="swiper-slide_Sw2">
-              <img src={I2} alt="" />
+              <img src={product.img3} alt="" />
             </div>
           </SwiperSlide>
           <SwiperSlide>
             <div class="swiper-slide_Sw2">
-              <img src={I3} alt="" />
+              <img src={product.img4} alt="" />
             </div>
           </SwiperSlide>
           <SwiperSlide>
             <div class="swiper-slide_Sw2">
-              <img src={I4} alt="" />
-            </div>
-          </SwiperSlide>
-          <SwiperSlide>
-            <div class="swiper-slide_Sw2">
-              <img src={I5} alt="" />
+              <img src={product.img5} alt="" />
             </div>
           </SwiperSlide>
         </Swiper>
@@ -79,30 +91,30 @@ function Swip_p2_blue() {
               IN STOCK <br />
               ⭐⭐⭐⭐⭐ 22 reviews
             </p>
-
-            <h2>
+            <h2>{product.name}</h2>
+            {/* <h2>
               The Conrad Shirt <br />
               in Seaside Embroidery
-            </h2>
-            <h2 class="price_Sw2">₹1299.00/-</h2>
+            </h2> */}
+            <h2 class="price_Sw2">{product.price}/-</h2>
           </div>
           <div class="color_size_Sw2">
             <p>
-              Color: <b>Seaside Embroidery</b>
+              Color: <b>{product.color}</b>
             </p>
+
             <div class="Clr_option_Sw2">
-              <div class="clr_Sw2">
-               
-                <Link to="/white">
-                  <img src={I6} alt="" class="clr_img_Sw2" />
-                </Link>
-                
-              </div>
+              {}
               <div class="clr_Sw2">
                 <Link>
-                  <img src={I7} alt="" class="clr_img_Sw2" />
+                  <img src={product.img} alt="" class="clr_img_Sw2" />
                 </Link>
               </div>
+              {/* <div class="clr_Sw2">
+                <Link to="/blue">
+                  <img src={I7} alt="" class="clr_img_Sw2" />
+                </Link>
+              </div> */}
             </div>
             <p>Size:XS-34</p>
             <div class="size_Sw2">
@@ -213,11 +225,11 @@ function Swip_p2_blue() {
         </div>
       </div>
       <div id="cnt3_Sw2">
-        <img src={I8} alt="" id="c3_ig1_Sw2" />
+        <img src={product.img6} alt="" id="c3_ig1_Sw2" />
       </div>
       <div id="cnt4_Sw2">
         <div id="cnt4_left_Sw2">
-          <img src={I9} alt="" id="c3_ig1_Sw2" />
+          <img src={product.img7} alt="" id="c3_ig1_Sw2" />
         </div>
         <div id="cnt4_right_Sw2">
           <div id="c4_right_inner_Sw2">
@@ -243,8 +255,8 @@ function Swip_p2_blue() {
           <div class="content_Sw2">
             <div class="items_Sw2">
               <div class="itmImg_Sw2">
-                <img src={II1} alt="" class="imgg_Sw2" />
-                <img src={II11} alt="" class="imgg2_Sw2" />
+                <img src={product.r1} alt="" class="imgg_Sw2" />
+                <img src={product.r1H} alt="" class="imgg2_Sw2" />
               </div>
               <div class="itm_name_Sw2">
                 <h3>The Short Sleeve Carter</h3>
@@ -255,8 +267,8 @@ function Swip_p2_blue() {
             </div>
             <div class="items_Sw2">
               <div class="itmImg_Sw2">
-                <img src={II2} alt="" class="imgg_Sw2" />
-                <img src={II22} alt="" class="imgg2_Sw2" />
+                <img src={product.r2} alt="" class="imgg_Sw2" />
+                <img src={product.r2H} alt="" class="imgg2_Sw2" />
               </div>
               <div class="itm_name_Sw2">
                 <h3>The Short Sleeve California</h3>
@@ -266,8 +278,8 @@ function Swip_p2_blue() {
             </div>
             <div class="items_Sw2">
               <div class="itmImg_Sw2">
-                <img src={II3} alt="" class="imgg_Sw2" />
-                <img src={II33} alt="" class="imgg2_Sw2" />
+                <img src={product.r3} alt="" class="imgg_Sw2" />
+                <img src={product.r3H} alt="" class="imgg2_Sw2" />
               </div>
               <div class="itm_name_Sw2">
                 <h3>The Short Sleeve Maxico</h3>
@@ -277,8 +289,8 @@ function Swip_p2_blue() {
             </div>
             <div class="items_Sw2">
               <div class="itmImg_Sw2">
-                <img src={II4} alt="" class="imgg_Sw2" />
-                <img src={II44} alt="" class="imgg2_Sw2" />
+                <img src={product.r4} alt="" class="imgg_Sw2" />
+                <img src={product.r4H} alt="" class="imgg2_Sw2" />
               </div>
               <div class="itm_name_Sw2">
                 <h3>The Short Sleeve Maxico</h3>
@@ -289,7 +301,8 @@ function Swip_p2_blue() {
           </div>
         </div>
       </div>
-      <Footer/>
+      <Footer />
+      <ScrollRestoration />
     </>
   );
 }

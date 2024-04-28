@@ -1,4 +1,5 @@
 import "./swiper_page4_jeans.css";
+import { ScrollRestoration } from "react-router-dom";
 import Imgg from "../image/swiper_img/sw4.webp";
 import Imgg1 from "../image/swiper_img/sw4444.jpg";
 import Imgg11 from "../image/swiper_img/sw4_p11.jpg";
@@ -135,6 +136,7 @@ function Swip_p4() {
         </div> */}
       </div>
       <Footer />
+      <ScrollRestoration />
     </>
   );
 }

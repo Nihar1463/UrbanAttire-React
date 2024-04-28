@@ -5,6 +5,12 @@ import C5itm3 from "../image/cont5_item3.webp"
 import C5itm4 from "../image/cont5_item4.webp"
 import C5itm5 from "../image/cont5_item5.webp"
 import C5itm6 from "../image/cont5_item6.webp"
+import C5itm7 from "../image/Accessories/acce2.webp"
+import C5itm8 from "../image/Accessories/acce3.webp"
+import C5itm9 from "../image/Accessories/acce4.webp"
+import C5itm10 from "../image/Accessories/acce5.webp"
+import C5itm11 from "../image/Accessories/acce6.webp"
+
 
 function Cont5(){
 return(
@@ -24,7 +30,7 @@ return(
           <div id="cont5_lower">
             <div class="cont5_item">
               <div class="cont5_img">
-                <img src={C5itm1} alt="" class="cont5_itm" />
+                <img src={C5itm7} alt="" class="cont5_itm" />
               </div>
               <div class="price">
                 <h3>Denim Wallet</h3>
@@ -33,7 +39,7 @@ return(
             </div>
             <div class="cont5_item">
               <div class="cont5_img">
-                <img src={C5itm2} alt="" class="cont5_itm" />
+                <img src={C5itm8} alt="" class="cont5_itm" />
               </div>
               <div class="price">
                 <h3>Deni Bucket Hat</h3>
@@ -42,7 +48,7 @@ return(
             </div>
             <div class="cont5_item">
               <div class="cont5_img">
-                <img src={C5itm3} alt="" class="cont5_itm" />
+                <img src={C5itm9} alt="" class="cont5_itm" />
               </div>
               <div class="price">
                 <h3>Deni Cross Bag</h3>
@@ -51,7 +57,7 @@ return(
             </div>
             <div class="cont5_item">
               <div class="cont5_img">
-                <img src={C5itm4} alt="" class="cont5_itm" />
+                <img src={C5itm10} alt="" class="cont5_itm" />
               </div>
               <div class="price">
                 <h3>Denim Wallet</h3>
@@ -60,14 +66,14 @@ return(
             </div>
             <div class="cont5_item">
               <div class="cont5_img">
-                <img src={C5itm5} alt="" class="cont5_itm" />
+                <img src={C5itm11} alt="" class="cont5_itm" />
               </div>
               <div class="price">
                 <h3>Denim Cap</h3>
                 <p>₹299.00</p>
               </div>
             </div>
-            <div class="cont5_item">
+            {/* <div class="cont5_item">
               <div class="cont5_img">
                 <img src={C5itm6} alt="" class="cont5_itm" />
               </div>
@@ -75,7 +81,7 @@ return(
                 <h3>Glasses Patch</h3>
                 <p>₹249.00</p>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

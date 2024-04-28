@@ -1,66 +1,207 @@
 #cont2 {
-    background-color: #ffffff;
-    /* height: 500px; */
-    width: 100%;
-    padding: 5vw 5vw 10vw 5vw ;
-  }
-  #cont2 #para {
-    font-size: 3.2vw;
-    color: #0f2c66;
-    font-family: "Rufina", serif;
-    font-weight: 600;
-  }
-  #main_item {
-    background-color: #ffffff;
-    /* height: 400px; */
-    width: 100%;
-    margin-top: 4vw;
-    display: flex;
-    /* position: relative; */
-  }
-  #main_item .items {
-    /* box-shadow: 1px 1px 18px 4px #b1daff; */
-    width: 25%;
-    background-color: #f3f3f3;
-    margin-right: 0.8vw;
-    position: relative;
-    height: 18.1vw;
-  }
-  #main_item .item_img1 {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-  }
-  .item_img11 {
-    /* position: absolute; */
-    width: 100%;
-    height: 100%;
-  }
-  .item_img1:hover {
-    display: none;
-  }
-  #seller {
-    position: absolute;
-    background-color: #b73030;
-    padding: 0vw 0.7vw;
-    font-size: 1vw;
-    color: #ffffff;
-  }
-  .price {
-    /* background-color: #ffffff; */
-    width: 100%;
-    margin-bottom: 5vw;
-  }
-  .price p {
-    font-size: 1.7vw;
-    margin-top: 0.4vw;
-    color: #0f2c66;
-    font-weight: 500;
-    font-family: "Mohave", sans-serif;
-  }
-  .price h3 {
-    font-size: 1.4vw;
-    margin-top: 0.6vw;
-    font-family: "Mohave", sans-serif;
-    font-weight: 400;
-  }
+  background-color: #ffffff61;
+  /* height: 500px; */
+  width: 100%;
+  padding: 2vw 5vw 2vw 6vw;
+}
+#cont2 #para {
+  font-size: 3.2vw;
+  color: #917951;
+  font-family: "Rufina", serif;
+  font-weight: 600;
+  padding-left: 1vw;
+  
+}
+#main_item {
+  background-color: #ffffff;
+  /* height: 400px; */
+  width: 100%;
+  margin-top: 4vw;
+  display: flex;
+  /* position: relative; */
+}
+#main_item .items {
+  /* box-shadow: 1px 1px 18px 4px #b1daff; */
+  width: 25%;
+  background-color: #f3f3f3;
+  margin-right: 0.8vw;
+  position: relative;
+  height: 18.1vw;
+}
+#main_item .item_img1 {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+.item_img11 {
+  /* position: absolute; */
+  width: 100%;
+  height: 100%;
+}
+.item_img1:hover {
+  display: none;
+}
+#seller {
+  position: absolute;
+  background-color: #b73030;
+  padding: 0vw 0.7vw;
+  font-size: 1vw;
+  color: #ffffff;
+}
+.price {
+  /* background-color: #ffffff; */
+  width: 100%;
+  margin-bottom: 5vw;
+}
+.price p {
+  font-size: 1.7vw;
+  margin-top: 0.4vw;
+  color: #0f2c66;
+  font-weight: 500;
+  font-family: "Mohave", sans-serif;
+}
+.price h3 {
+  font-size: 1.4vw;
+  margin-top: 0.6vw;
+  font-family: "Mohave", sans-serif;
+  font-weight: 400;
+}
+#mn1 {
+  width: 100%;
+  padding-top: 4vw;
+}
+
+
+.product_C2_arrrival {
+  /* display: flex; */
+  /* background-color: beige; */
+  width: 100%;
+  position: relative;
+  /* justify-content: center; */
+}
+.content_arrrival_cont2 {
+  display: flex;
+
+  width: 100%;
+  /* max-width: 80%; */
+  flex-wrap: wrap;
+  flex-direction: row;
+  /* background-color: #b73030; */
+  /* justify-content: center; */
+
+  padding: 1vw 0vw;
+}
+.items_Sw1_cont2 {
+  width: 31vh;
+  /* background-color: #f3f3f3; */
+  margin: 1.25vw;
+  border-radius: 1vw;
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.itmImg_Sw1_cont2 {
+  padding: 1vw 0vw;
+  justify-content: center;
+  display: flex;
+  /* position: absolute; */
+}
+
+.imgg_Sw1_cont2 {
+  width: 31vh;
+  height: 31vh;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  /* margin: 1vw; */
+  position: absolute;
+  transition: all ease 0.5s;
+
+  z-index: 10;
+  opacity: 1;
+}
+.imgg2_Sw1_cont2 {
+  width: 31vh;
+  height: 31vh;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  /* margin: 1vw; */
+  /* position: absolute; */
+  transition: all ease 1s;
+  opacity: 1;
+}
+.imgg_Sw1_cont2:hover {
+  /* transform: scale(1.1); */
+  opacity: 0;
+}
+.imgg2_Sw1_cont2:hover {
+  /* background-color: aqua; */
+  /* transform: scale(1.05); */
+  display: none;
+  opacity: 1;
+}
+.itm_name_Sw1_cont2 {
+  padding: 0vw 1.5vw;
+  text-align: center;
+}
+.itm_name_Sw1_cont2 p {
+  font-size: 1.7vw;
+  margin-top: 0.6vw;
+  color: #0f2c66;
+  font-weight: 500;
+  /* display: flex; */
+  /* padding-right: 5vw; */
+  /* font-family: "Butterfly Kids", cursive; */
+
+  font-family: "Mohave", sans-serif;
+}
+.itm_name_Sw1_cont2 h3 {
+  font-size: 1.4vw;
+  margin-top: 0.6vw;
+  font-family: "Mohave", sans-serif;
+  font-weight: 400;
+}
+.cartbtn_Sw1_cont2 {
+  padding: 1vw;
+  border-radius: 1.2vw;
+  margin-top: 0.5vw;
+  margin-bottom: 0.5vw;
+  font-size: 1.1vw;
+  border: none;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    180deg,
+    rgb(224, 224, 224) 0%,
+    rgb(255, 255, 255) 51%,
+    rgb(223, 222, 222) 89%
+  );
+  font-family: "Mohave", sans-serif;
+  /* font-family: "Rufina", serif; */
+
+
+  cursor: pointer;
+}
+#ppp_cont2 {
+  position: absolute;
+  background-color: #b73030c8;
+  width: 6vw;
+  /* height: 2vw; */
+  z-index: 100;
+  font-size: 1vw;
+  /* transform: ; */
+  transform: translateX(-5.1vw) translateY(.2vw) rotateX(10deg) rotateY(-10deg)
+    rotateZ(-40deg);
+  color: white;
+  font-family: "Mohave", sans-serif;
+  text-align: center;
+}
+#h22 {
+  /* background-color: #cfb081; */
+  padding: 2vw;
+  /* width: 100%; */
+  /* height: 2vw; */
+  font-family: "Mohave", sans-serif;
+  /* font-family: "Rufina", serif; */
+  color: #b73030;
+  font-size: 2.5vw;
+}

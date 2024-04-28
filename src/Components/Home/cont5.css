@@ -1,6 +1,14 @@
 #cont5 {
   /* background-color: #f6a000; */
-  background: url(../image/Cont5_background.webp);
+  /* background: url(../image/cont5_bccc.jpg); */
+  /* background: url(../image/Cont5_background.webp); */
+  background: rgb(232, 193, 95);
+  background: linear-gradient(
+    180deg,
+    rgb(253, 244, 224) 0%,
+    rgb(255, 244, 244) 55%,
+    rgba(255, 246, 222, 0.925) 89%
+  );
   width: 100%;
   height: 100vh;
   background-attachment: fixed;
@@ -64,7 +72,7 @@
   width: 20%;
   /* background-color: #2d5f87; */
   height: 100%;
-  margin-right: 1vw;
+  margin-right: 1.5vw;
   cursor: pointer;
   /* overflow: hidden; */
 }
@@ -72,7 +80,8 @@
   overflow: hidden;
   height: 100%;
   width: 100%;
-  box-shadow: 2px 5px 3px 2px rgb(155, 193, 209);
+  box-shadow: 2px 5px 3px 2px rgb(168, 159, 120);
+  /* box-shadow: 2px 5px 3px 2px rgb(155, 193, 209); */
 }
 .cont5_itm {
   width: 100%;
@@ -80,6 +89,6 @@
   transition: all ease 0.5s;
 }
 .cont5_itm:hover {
-  transform: scale(1.3);
+  transform: scale(1.2);
   /* background-image: linear-gradient(rgb(197, 34, 34), yellow); */
 }

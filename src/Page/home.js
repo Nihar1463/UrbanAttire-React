@@ -2,6 +2,7 @@ import Footer from "../Components/Footer/footer";
 import Head from "../Components/Header/header";
 import Cont1 from "../Components/Home/cont1"
 import Cont2 from "../Components/Home/cont2";
+import Cont2_test from "../Components/Home/cont2_test";
 import Cont3 from "../Components/Home/cont3";
 import Cont44 from "../Components/Home/cont44";
 import Cont5 from "../Components/Home/cont5";
@@ -14,7 +15,7 @@ function Homeconts() {
     <>
     <Head/>
       <Cont1/>
-      <Cont2/>
+      <Cont2_test/>
       <Cont3/>
       <Cont44/>
       <Cont5/>

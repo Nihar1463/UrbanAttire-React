@@ -18,34 +18,39 @@ import Footer from "../Footer/footer";
 function TShirt_arrival() {
   const New_Arrival = [
     {
+      id: 24,
       img: I1T,
       img2: I11T,
-      name: "The Short Sleeve Carter",
-      price: "₹1499.00",
+      name: "The Rugby Quarter Zip",
+      price: "₹2049.00",
     },
     {
+      id: 25,
       img: I2T,
       img2: I22T,
       name: "The Short Sleeve Carter",
       price: "₹1499.00",
     },
     {
+      id: 26,
       img: I3T,
       img2: I33T,
-      name: "The Short Sleeve Carter",
-      price: "₹1499.00",
+      name: "The Organic Cotton Tee Gold ",
+      price: "₹899.00",
     },
     {
+      id: 27,
       img: I4T,
       img2: I44T,
       name: "The Short Sleeve Carter",
       price: "₹1499.00",
     },
     {
+      id: 28,
       img: I5T,
       img2: I55T,
-      name: "The Short Sleeve Carter",
-      price: "₹1499.00",
+      name: "The Organic Cotton Henley",
+      price: "₹899.00",
     },
   ];
   return (
@@ -78,7 +83,7 @@ function TShirt_arrival() {
               </Link>
               <Link to="/New_arrival_Jeans">
                 <p>JEANS</p>
-              </Link >
+              </Link>
               <Link to="/New_arrival_Shorts">
                 <p>SHORTS</p>
               </Link>
@@ -86,19 +91,20 @@ function TShirt_arrival() {
           </div>
           <div class="product_C2_arrrival ">
             <div class="content_arrrival ">
-              {New_Arrival.map((test, index) => (
-                <div class="items_Sw1" key={index}>
+              {New_Arrival.map((product) => (
+                <div class="items_Sw1" key={product.id}>
                   <div class="itmImg_Sw1">
                     <div id="ppp">
                       <p>New Arrival</p>
                     </div>
-                    <img src={test.img} alt="" class="imgg_Sw1" />
-
-                    <img src={test.img2} alt="" class="imgg2_Sw1" />
+                    <Link to={`/product/${product.id}`}>
+                      <img src={product.img} alt="" class="imgg_Sw1" />
+                      <img src={product.img2} alt="" class="imgg2_Sw1" />
+                    </Link>
                   </div>
                   <div class="itm_name_Sw1">
-                    <h3>{test.name}</h3>
-                    <p>{test.price}</p>
+                    <h3>{product.name}</h3>
+                    <p>{product.price}</p>
 
                     <button class="cartbtn_Sw1">Add To Cart</button>
                   </div>
@@ -108,7 +114,7 @@ function TShirt_arrival() {
           </div>
         </div>
       </div>
-      <Footer/>
+      <Footer />
     </>
   );
 }

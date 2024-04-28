@@ -1,5 +1,7 @@
 import React from "react";
 import "./New_arrival.css";
+import { ScrollRestoration } from "react-router-dom";
+
 import Im1 from "../image/Men_arrival/new_arivalc1.webp";
 import Imgg1 from "../image/swiper_img/itm1.webp";
 import Imgg11 from "../image/swiper_img/item11.webp";
@@ -37,107 +39,163 @@ import Imgg4T from "../image/Men_arrival/T-shirt/t4.webp";
 import Imgg44T from "../image/Men_arrival/T-shirt/t44.webp";
 import Imgg5T from "../image/Men_arrival/T-shirt/t5.webp";
 import Imgg55T from "../image/Men_arrival/T-shirt/t55.webp";
+import Img12 from "../image/swiper_img/itm13.webp";
+import Img13 from "../image/swiper_img/itm14.webp";
+import Img14 from "../image/swiper_img/itm15.webp";
+import Img15H from "../image/swiper_img/itm16H.webp";
+import Img17V from "../image/swiper_img/itm17V.webp";
+import Img23 from "../image/swiper_img/itm23.webp";
+import Img24 from "../image/swiper_img/itm24.webp";
+import Img25 from "../image/swiper_img/itm25.webp";
+import Img26H from "../image/swiper_img/itm26H.webp";
+import Img27V from "../image/swiper_img/itm17V.webp";
+import Img333 from "../image/swiper_img/itm333.webp";
+import Img34 from "../image/swiper_img/itm34.webp";
+import Img35 from "../image/swiper_img/itm35.jpg";
+import Img36H from "../image/swiper_img/itm36H.webp";
+import Img37V from "../image/swiper_img/itm37V.webp";
 
 import { Link } from "react-router-dom";
 import Head from "../Header/header";
 import Footer from "../Footer/footer";
+import { itemData } from "./Data";
+
 function New_arrival() {
-  const New_Arrival = [
+  const New_arrival = [
     {
+      id: 1,
       img: Imgg1,
       img2: Imgg11,
+      img3: Img12,
+      img4: Img13,
+      img5: Img14,
+      img6: Img15H,
+      img7: Img17V,
+      color: "Dark Navy Abstract",
       name: "The Short Sleeve Carter",
       price: "₹1499.00",
     },
     {
+      id: 2,
       img: Imgg2,
       img2: Imgg22,
-      name: "The Short Sleeve Carter",
-      price: "₹1499.00",
+      img3: Img23,
+      img4: Img24,
+      img5: Img25,
+      img6: Img26H,
+      img7: Img27V,
+      color: " Dark Navy Ginkgo",
+      name: "The Short Sleeve California",
+      price: "₹1099.00",
     },
     {
+      id: 3,
       img: Imgg1S,
       img2: Imgg11S,
-      name: "The Short Sleeve Carter",
-      price: "₹1499.00",
+      img3: Img23,
+      img4: Img24,
+      img5: Img25,
+      img6: Img26H,
+      img7: Img27V,
+
+      name: " The Après Short Brick Dobby",
+      price: "₹999.00",
     },
     {
+      id: 4,
       img: Imgg3,
       img2: Imgg33,
-      name: "The Short Sleeve Carter",
-      price: "₹1499.00",
+      img3: Img333,
+      img4: Img34,
+      img5: Img35,
+      img6: Img36H,
+      img7: Img37V,
+      name: "The Short Sleeve Jack",
+      price: "₹1149.00",
     },
     {
+      id: 5,
       img: Imgg4,
       img2: Imgg44,
-      name: "The Short Sleeve Carter",
-      price: "₹1499.00",
+      name: "The Camp Short",
+      price: "₹1099.00",
     },
     {
+      id: 6,
       img: Imgg5,
       img2: Imgg55,
       name: "The Short Sleeve Carter",
       price: "₹1499.00",
     },
     {
+      id: 7,
       img: Imgg2S,
       img2: Imgg22S,
-      name: "The Short Sleeve Carter",
-      price: "₹1499.00",
+      name: "The Après Short Hemp",
+      price: "₹999.00",
     },
     {
+      id: 8,
       img: Imgg6,
       img2: Imgg66,
-      name: "The Short Sleeve Carter",
-      price: "₹1499.00",
+      name: "The Workhorse Utility Jacket",
+      price: "₹2099.00",
     },
     {
+      id: 9,
       img: Imgg2T,
       img2: Imgg22T,
-      name: "The Short Sleeve Carter",
-      price: "₹1499.00",
+      name: "The Heavy Bag Tee",
+      price: "₹499.00",
     },
     {
+      id: 10,
       img: Imgg7,
       img2: Imgg77,
-      name: "The Short Sleeve Carter",
-      price: "₹1499.00",
+      name: "The Workhorse Vest",
+      price: "₹1599.00",
     },
     {
+      id: 11,
       img: Imgg8,
       img2: Imgg88,
       name: "The Short Sleeve Carter",
       price: "₹1499.00",
     },
     {
+      id: 12,
       img: Imgg3S,
       img2: Imgg33S,
-      name: "The Short Sleeve Carter",
-      price: "₹1499.00",
+      name: "The Après Stripe Short ",
+      price: "₹1099.00",
     },
     {
+      id: 13,
       img: Imgg9,
       img2: Imgg99,
-      name: "The Short Sleeve Carter",
-      price: "₹1499.00",
+      name: "The Fremont Jacket",
+      price: "₹2499.00",
     },
     {
+      id: 14,
       img: Imgg1T,
       img2: Imgg11T,
-      name: "The Short Sleeve Carter",
-      price: "₹1499.00",
+      name: "The Heavy Bag Tee Cherry ",
+      price: "₹999.00",
     },
     {
+      id: 15,
       img: Imgg4S,
       img2: Imgg44S,
-      name: "The Short Sleeve Carter",
-      price: "₹1499.00",
+      name: "The Après Twill Short",
+      price: "₹1199.00",
     },
     {
+      id: 16,
       img: Imgg5T,
       img2: Imgg55T,
-      name: "The Short Sleeve Carter",
-      price: "₹1499.00",
+      name: "TThe Rugby T-Shirt ",
+      price: "₹1749.00",
     },
   ];
   return (
@@ -169,7 +227,6 @@ function New_arrival() {
                 <p>T-SHIRTS</p>
               </Link>
               <Link to="/New_arrival_Jeans">
-                
                 <p>JEANS</p>
               </Link>
               <Link to="/New_arrival_Shorts">
@@ -179,18 +236,20 @@ function New_arrival() {
           </div>
           <div class="product_C2_arrrival ">
             <div class="content_arrrival ">
-              {New_Arrival.map((test, index) => (
-                <div class="items_Sw1" key={index}>
+              {New_arrival.map((product) => (
+                <div class="items_Sw1" key={product.id}>
                   <div class="itmImg_Sw1">
-                  <div id="ppp">
-                  <p>New Arrival</p>
-                  </div>
-                    <img src={test.img} alt="" class="imgg_Sw1" />
-                    <img src={test.img2} alt="" class="imgg2_Sw1" />
+                    <div id="ppp">
+                      <p>New Arrival</p>
+                    </div>
+                    <Link to={`/product/${product.id}`}>
+                      <img src={product.img} alt="" class="imgg_Sw1" />
+                      <img src={product.img2} alt="" class="imgg2_Sw1" />
+                    </Link>
                   </div>
                   <div class="itm_name_Sw1">
-                    <h3>{test.name}</h3>
-                    <p>{test.price}</p>
+                    <h3>{product.name}</h3>
+                    <p>{product.price}</p>
 
                     <button class="cartbtn_Sw1">Add To Cart</button>
                   </div>
@@ -256,7 +315,8 @@ function New_arrival() {
           </div>
         </div>
       </div>
-      <Footer/>
+      <Footer />
+      <ScrollRestoration />
     </>
   );
 }

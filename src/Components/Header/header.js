@@ -33,7 +33,7 @@ function Head() {
               <Link to="/All_Shirt">Men's Shirts</Link>
               <a href="#">Men's T-Shirts</a>
               <a href="#">Men's Jeans</a>
-              <a href="#">Men's shorts</a>
+              {/* <a href="#">Men's shorts</a> */}
             </div>
           </div>
           <div class="dropdown">

@@ -3,13 +3,15 @@
   position: absolute;
   top: 5%;
   left: 5%;
-  background: #B9312F;
+  background: #b9312ff6;
   backdrop-filter: blur(100px);
   -webkit-backdrop-filter: blur(10px);
   font-size: 1.2vw;
   padding: 0.7vw 1.5vw;
   border-radius: 1.5vw;
   font-family: "Montserrat", sans-serif;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  
 }
 #homeBTN a {
   color: #eee;

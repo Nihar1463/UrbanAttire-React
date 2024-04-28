@@ -1,4 +1,5 @@
 import "./swiper_page1.css";
+import { ScrollRestoration } from "react-router-dom";
 import Imgg from "../image/swiper_img/swip1.webp";
 import Imgg1 from "../image/swiper_img/itm1.webp";
 import Imgg11 from "../image/swiper_img/item11.webp";
@@ -87,6 +88,7 @@ function Swip_p1() {
         </div>
       </div>
       <Footer />
+      <ScrollRestoration />
     </>
   );
 }
