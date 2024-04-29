@@ -1,5 +1,7 @@
 import React from "react";
 import "./New_arrival.css";
+import { ScrollRestoration } from "react-router-dom";
+
 import Im1 from "../image/Men_arrival/new_arivalc1.webp";
 import JEN1 from "../image/Men_arrival/Jeans/jen1.webp";
 import JEN11 from "../image/Men_arrival/Jeans/jen11.webp";
@@ -99,6 +101,8 @@ function Jeans_arrival() {
         </div>
       </div>
       <Footer />
+      <ScrollRestoration />
+
     </>
   );
 }

@@ -30,7 +30,7 @@ import Head from "../Header/header";
 import Footer from "../Footer/footer";
 import { Navigation, Pagination, Mousewheel, Keyboard } from "swiper/modules";
 
-import {  itemData } from "../Mens_Arrival/Data";
+import { itemData } from "../Mens_Arrival/Data";
 
 // import required modules
 import { Link, useParams } from "react-router-dom";
@@ -254,29 +254,36 @@ function Swip_p2_blue() {
         <div class="product_C2_Sw2">
           <div class="content_Sw2">
             <div class="items_Sw2">
-              <div class="itmImg_Sw2">
-                <img src={product.r1} alt="" class="imgg_Sw2" />
-                <img src={product.r1H} alt="" class="imgg2_Sw2" />
-              </div>
-              <div class="itm_name_Sw2">
-                <h3>The Short Sleeve Carter</h3>
-                <p>₹1499.00</p>
+              <Link to={product.url1}>
+                <div class="itmImg_Sw2">
+                  <img src={product.r1} alt="" class="imgg_Sw2" />
+                  <img src={product.r1H} alt="" class="imgg2_Sw2" />
+                </div>
 
-                <button class="cartbtn_Sw2">Add To Cart</button>
-              </div>
+                <div class="itm_name_Sw2">
+                  <h3>The Short Sleeve Carter</h3>
+                  <p>₹1499.00</p>
+
+                  <button class="cartbtn_Sw2">Add To Cart</button>
+                </div>
+              </Link>
+            </div>
+
+            <div class="items_Sw2">
+              <Link to={product.url2}>
+                <div class="itmImg_Sw2">
+                  <img src={product.r2} alt="" class="imgg_Sw2" />
+                  <img src={product.r2H} alt="" class="imgg2_Sw2" />
+                </div>
+                <div class="itm_name_Sw2">
+                  <h3>The Short Sleeve California</h3>
+                  <p>₹1299.00</p>
+                  <button class="cartbtn_Sw2">Add To Cart</button>
+                </div>
+              </Link>
             </div>
             <div class="items_Sw2">
-              <div class="itmImg_Sw2">
-                <img src={product.r2} alt="" class="imgg_Sw2" />
-                <img src={product.r2H} alt="" class="imgg2_Sw2" />
-              </div>
-              <div class="itm_name_Sw2">
-                <h3>The Short Sleeve California</h3>
-                <p>₹1299.00</p>
-                <button class="cartbtn_Sw2">Add To Cart</button>
-              </div>
-            </div>
-            <div class="items_Sw2">
+              <Link to={product.url3}>
               <div class="itmImg_Sw2">
                 <img src={product.r3} alt="" class="imgg_Sw2" />
                 <img src={product.r3H} alt="" class="imgg2_Sw2" />
@@ -286,8 +293,10 @@ function Swip_p2_blue() {
                 <p>₹1299.00</p>
                 <button class="cartbtn_Sw2">Add To Cart</button>
               </div>
+              </Link>
             </div>
             <div class="items_Sw2">
+            <Link to={product.url4}>
               <div class="itmImg_Sw2">
                 <img src={product.r4} alt="" class="imgg_Sw2" />
                 <img src={product.r4H} alt="" class="imgg2_Sw2" />
@@ -297,6 +306,7 @@ function Swip_p2_blue() {
                 <p>₹1299.00</p>
                 <button class="cartbtn_Sw2">Add To Cart</button>
               </div>
+              </Link>
             </div>
           </div>
         </div>

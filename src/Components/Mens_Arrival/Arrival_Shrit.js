@@ -16,6 +16,7 @@ import Imgg6srt from "../image/Men_arrival/shirt/srt6.webp";
 import Imgg66srt from "../image/Men_arrival/shirt/srt66.webp";
 import Imgg7srt from "../image/Men_arrival/shirt/srt7.webp";
 import Imgg77srt from "../image/Men_arrival/shirt/srt77.jpg";
+import { ScrollRestoration } from "react-router-dom";
 
 import { Link } from "react-router-dom";
 import Head from "../Header/header";
@@ -137,6 +138,8 @@ function Shirt_arrival() {
         </div>
       </div>
       <Footer />
+      <ScrollRestoration />
+
     </>
   );
 }

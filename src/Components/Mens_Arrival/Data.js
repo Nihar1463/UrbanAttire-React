@@ -280,6 +280,104 @@ import Sh115 from "../image/Men_arrival/short/s15.jpg";
 import Sh116 from "../image/Men_arrival/short/s16h.jpg";
 import Sh117 from "../image/Men_arrival/short/s17v.webp";
 
+// All Shirt
+
+// import Shirt from "../image/Men_arrival/shirt/SHIRTT.png";
+import Shirt1 from "../image/Men_arrival/shirt/srtt1.webp";
+import Shirt11 from "../image/Men_arrival/shirt/srtt11.jpg";
+import Shirt2 from "../image/Men_arrival/shirt/srtt2.webp";
+import Shirt22 from "../image/Men_arrival/shirt/srtt22.webp";
+import Shirt3 from "../image/Men_arrival/shirt/srtt3.webp";
+import Shirt33 from "../image/Men_arrival/shirt/srtt33.webp";
+import Shirt4 from "../image/Men_arrival/shirt/srtt4.webp";
+import Shirt44 from "../image/Men_arrival/shirt/srtt44.webp";
+import Shirt5 from "../image/Men_arrival/shirt/srtt5.webp";
+import Shirt55 from "../image/Men_arrival/shirt/srtt55.webp";
+import Shirt6 from "../image/Men_arrival/shirt/srtt6.webp";
+import Shirt66 from "../image/Men_arrival/shirt/srtt66.webp";
+import Shirt7 from "../image/Men_arrival/shirt/srtt7.webp";
+import Shirt77 from "../image/Men_arrival/shirt/srtt77.webp";
+import Shirt8 from "../image/Men_arrival/shirt/srtt8.webp";
+import Shirt88 from "../image/Men_arrival/shirt/srtt88.webp";
+import Shirt9 from "../image/Men_arrival/shirt/srtt9.webp";
+import Shirt99 from "../image/Men_arrival/shirt/srtt99.webp";
+import Shirt10 from "../image/Men_arrival/shirt/srtt10.webp";
+import Shirt1010 from "../image/Men_arrival/shirt/srtt1010.webp";
+import Shirt111 from "../image/Men_arrival/shirt/srtt11.webp";
+import Shirt1111 from "../image/Men_arrival/shirt/srtt11111.webp";
+import Shirt12 from "../image/Men_arrival/shirt/srtt12.webp";
+import Shirt1212 from "../image/Men_arrival/shirt/srtt1212.jpg";
+import Shirt13 from "../image/Men_arrival/shirt/srtt13.webp";
+import Shirt1313 from "../image/Men_arrival/shirt/srtt1313.webp";
+import Shirt14 from "../image/Men_arrival/shirt/srtt14.webp";
+import Shirt1414 from "../image/Men_arrival/shirt/srtt1414.webp";
+import Shirt15 from "../image/Men_arrival/shirt/srtt15.webp";
+import Shirt1515 from "../image/Men_arrival/shirt/srtt1515.webp";
+import Shirt16 from "../image/Men_arrival/shirt/srtt16.webp";
+import Shirt1616 from "../image/Men_arrival/shirt/srtt1616.webp";
+import Shirt17 from "../image/Men_arrival/shirt/srtt17.webp";
+import Shirt1717 from "../image/Men_arrival/shirt/srtt1717.webp";
+import Shirt18 from "../image/Men_arrival/shirt/srtt18.webp";
+import Shirt1818 from "../image/Men_arrival/shirt/srtt1818.webp";
+import SFS1 from "../image/Men_arrival/shirt/SFS1.webp";
+import SFS11 from "../image/Men_arrival/shirt/SFS11.webp";
+import SFS2 from "../image/Men_arrival/shirt/SFS2.webp";
+import SFS22 from "../image/Men_arrival/shirt/SFS22.webp";
+import SFS3 from "../image/Men_arrival/shirt/SFS3.webp";
+import SFS33 from "../image/Men_arrival/shirt/SFS33.webp";
+import SFS4 from "../image/Men_arrival/shirt/SFS4.webp";
+import SFS44 from "../image/Men_arrival/shirt/SFS44.webp";
+import SFS5 from "../image/Men_arrival/shirt/SFS5.webp";
+import SFS55 from "../image/Men_arrival/shirt/SFS55.webp";
+import SFS6 from "../image/Men_arrival/shirt/SFS6.webp";
+import SFS66 from "../image/Men_arrival/shirt/SFS66.webp";
+import SFS7 from "../image/Men_arrival/shirt/SFS7.webp";
+import SFS77 from "../image/Men_arrival/shirt/SFS77.webp";
+import SFS8 from "../image/Men_arrival/shirt/SFS8.webp";
+import SFS88 from "../image/Men_arrival/shirt/SFS88.webp";
+import SFS9 from "../image/Men_arrival/shirt/SFS9.webp";
+
+import SFS13 from "../image/Men_arrival/shirt/fs13.jpg";
+import SFS14 from "../image/Men_arrival/shirt/fs14.jpg";
+import SFS15 from "../image/Men_arrival/shirt/fs15.webp";
+import SFS16 from "../image/Men_arrival/shirt/fs16h.jpg";
+import SFS17 from "../image/Men_arrival/shirt/fs17v.webp";
+
+import SFS23 from "../image/Men_arrival/shirt/srtt23.webp";
+import SFS24 from "../image/Men_arrival/shirt/srtt24.webp";
+import SFS25 from "../image/Men_arrival/shirt/srtt25.jpg";
+import SFS26 from "../image/Men_arrival/shirt/srtt26h.webp";
+import SFS27 from "../image/Men_arrival/shirt/srtt27v.jpg";
+
+import SFS333 from "../image/Men_arrival/shirt/srtt333.webp";
+import SFS334 from "../image/Men_arrival/shirt/srtt334.webp";
+import SFS335 from "../image/Men_arrival/shirt/srtt335.webp";
+import SFS336 from "../image/Men_arrival/shirt/srtt36h.webp";
+import SFS337 from "../image/Men_arrival/shirt/srtt337v.webp";
+
+import SFS43 from "../image/Men_arrival/shirt/s13.jpg";
+import SFS444 from "../image/Men_arrival/shirt/s14.webp";
+import SFS45 from "../image/Men_arrival/shirt/s15.webp";
+import SFS46 from "../image/Men_arrival/shirt/s16h.webp";
+import SFS47 from "../image/Men_arrival/shirt/s17v.webp";
+
+import SFS53 from "../image/Men_arrival/shirt/sss13.jpg";
+import SFS54 from "../image/Men_arrival/shirt/sss14.webp";
+import SFS555 from "../image/Men_arrival/shirt/sss15.webp";
+import SFS56 from "../image/Men_arrival/shirt/sss16h.jpg";
+import SFS57 from "../image/Men_arrival/shirt/sss17v.webp";
+
+import SFS63 from "../image/Men_arrival/shirt/sss23.webp";
+import SFS64 from "../image/Men_arrival/shirt/sss24.webp";
+import SFS65 from "../image/Men_arrival/shirt/sss25.webp";
+import SFS666 from "../image/Men_arrival/shirt/sss26h.webp";
+import SFS67 from "../image/Men_arrival/shirt/sss27v.webp";
+
+import SFS73 from "../image/Men_arrival/shirt/S33.webp";
+import SFS74 from "../image/Men_arrival/shirt/S34.webp";
+import SFS75 from "../image/Men_arrival/shirt/S35.webp";
+import SFS76 from "../image/Men_arrival/shirt/S36h.webp";
+import SFS777 from "../image/Men_arrival/shirt/S37v.webp";
 
 
 export const itemData = [
@@ -905,7 +1003,7 @@ export const itemData = [
     price: "₹1199.00",
   },
   {
-    id:33,
+    id: 33,
     img: Short2,
     img2: Short22,
     img3: ST13,
@@ -926,7 +1024,7 @@ export const itemData = [
     price: "₹1199.00",
   },
   {
-    id:34,
+    id: 34,
     img: Short3,
     img2: Short33,
     img3: Short53,
@@ -947,7 +1045,7 @@ export const itemData = [
     price: "₹1199.00",
   },
   {
-    id:35,
+    id: 35,
     img: Sh111,
     img2: Sh112,
     img3: Sh113,
@@ -967,4 +1065,245 @@ export const itemData = [
     name: "The Après Twill Short",
     price: "₹1199.00",
   },
-];
+
+  // All Shirt
+  {
+    id: 36,
+    img: Shirt1,
+    img2: Shirt11,
+    img3: SFS13,
+    img4: SFS14,
+    img5: SFS15,
+    img6: SFS16,
+    img7: SFS17,
+    r1: Short1,
+    r1H: Short11,
+    r2: Imgg1,
+    r2H: Imgg11,
+    r3: RT2,
+    r3H: RT2H,
+    r4: Imgg2T,
+    r4H: Imgg22T,
+    color: "Heather Blue Linen Tweed",
+    name: "The Point Blue Shirt",
+    price: "₹1799.00",
+    url1: "/product/12",
+    url2: "/product/1",
+    url3: "/product/14",
+    url4: "/product/9",
+  },
+  {
+    id: 37,
+    img: Shirt2,
+    img2: Shirt22,
+    img3: SFS23,
+    img4: SFS24,
+    img5: SFS25,
+    img6: SFS26,
+    img7: SFS27,
+    r1: Short1,
+    r1H: Short11,
+    r2: Imgg1,
+    r2H: Imgg11,
+    r3: Imgg1S,
+    r3H: Imgg11S,
+    r4: Imgg2,
+    r4H: Imgg22,
+
+    color: "Rain Drop Camo",
+    name: "The Point Rain Drop Shirt",
+
+    price: "₹1499.00",
+    url1: "/product/12",
+    url2: "/product/1",
+    url3: "/product/3",
+    url4: "/product/2",
+  },
+  {
+    id: 38,
+    img: Shirt3,
+    img2: Shirt33,
+    img3: SFS333,
+    img4: SFS334,
+    img5: SFS335,
+    img6: SFS336,
+    img7: SFS337,
+    r1: Short1,
+    r1H: Short11,
+    r2: Shirt2,
+    r2H: Shirt22,
+    r3: Shirt4,
+    r3H: Shirt44,
+    r4: Imgg2,
+    r4H: Imgg22,
+
+    color: "Rain Drop Camo",
+    name: "The Point Rain Drop Shirt",
+
+    price: "₹1499.00",
+    url1: "/product/12",
+    url2: "/product/37",
+    url3: "/product/39",
+    url4: "/product/2",
+  },
+  {
+    id: 39,
+    img: Shirt4,
+    img2: Shirt44,
+    img3: SFS43,
+    img4: SFS444,
+    img5: SFS45,
+    img6: SFS46,
+    img7: SFS47,
+    r1: Shirt5,
+    r1H: Shirt55,
+    r2: Shirt2,
+    r2H: Shirt22,
+    r3: Shirt3,
+    r3H: Shirt33,
+    r4: Shirt5,
+    r4H: Shirt55,
+    name: "The Short Sleeve Carter",
+    color: "Rain Drop Camo",
+    price: "₹1599.00",
+    url1: "/product/12",
+    url2: "/product/37",
+    url3: "/product/38",
+    url4: "/product/2",
+  },
+  {
+    id: 40,
+    img: Shirt5,
+    img2: Shirt55,
+    img3: SFS53,
+    img4: SFS54,
+    img5: SFS555,
+    img6: SFS56,
+    img7: SFS57,
+    r1: Short1,
+    r1H: Short11,
+    r2: Shirt2,
+    r2H: Shirt22,
+    r3: Shirt3,
+    r3H: Shirt33,
+    r4: Shirt4,
+    r4H: Shirt44,
+    name: "The Jack in Ash Twist",
+    color: "Ash Twist",
+    price: "₹1399.00",
+    url1: "/product/12",
+    url2: "/product/37",
+    url3: "/product/38",
+    url4: "/product/2",
+    p:"New Arrival"
+  },
+  {
+    id: 41,
+    img: Shirt6,
+    img2: Shirt66,
+    img3: SFS63,
+    img4: SFS64,
+    img5: SFS65,
+    img6: SFS666,
+    img7: SFS67,
+    r1: Shirt10,
+    r1H: Shirt1010,
+    r2: Shirt2,
+    r2H: Shirt22,
+    r3: Shirt3,
+    r3H: Shirt33,
+    r4: Shirt4,
+    r4H: Shirt44,
+    name: "The Jack in Ash Twist",
+    color: "Ash Twist",
+    price: "₹1399.00",
+    url1: "/product/12",
+    url2: "/product/37",
+    url3: "/product/38",
+    url4: "/product/39",
+  },
+  
+  {
+    id: 49,
+    img: Shirt10,
+    img2: Shirt1010,
+    img3: SFS73,
+    img4: SFS74,
+    img5: SFS75,
+    img6: SFS76,
+    img7: SFS777,
+    r1: Shirt1,
+    r1H: Shirt11,
+    r2: Shirt2,
+    r2H: Shirt22,
+    r3: Shirt3,
+    r3H: Shirt33,
+    r4: Shirt4,
+    r4H: Shirt44,
+    name: "The Jack in Ash Twist",
+    color: "Ash Twist",
+    price: "₹1399.00",
+    url1: "/product/36",
+    url2: "/product/37",
+    url3: "/product/38",
+    url4: "/product/39",
+  },
+  {
+    id: 47,
+    img: Shirt111,
+    img2: Shirt1111,
+    img3: SSSt63,
+    img4: SSSt64,
+    img5: SSSt65,
+    img6: SSSt66,
+    img7: SSSt67,
+    r1: Shirt1,
+    r1H: Shirt11,
+    r2: Shirt2,
+    r2H: Shirt22,
+    r3: Shirt3,
+    r3H: Shirt33,
+    r4: Shirt4,
+    r4H: Shirt44,
+    color: "Dark Navy Floral",
+    name: "Short Sleeve Floral",
+    price: "₹1499.00",
+    url1: "/product/36",
+    url2: "/product/37",
+    url3: "/product/38",
+    url4: "/product/39",
+  },
+  {
+    id: 48,
+    img: Shirt12,
+    img2: Shirt1212,
+    img3: SSSt73,
+    img4: SSSt74,
+    img5: SSSt75,
+    img6: SSSt76,
+    img7: SSSt77,
+    r1: Shirt5,
+    r1H: Shirt55,
+    r2: Shirt10,
+    r2H: Shirt1010,
+    r3: Shirt1,
+    r3H: Shirt11,
+    r4: Shirt4,
+    r4H: Shirt44,
+    color: "Fig Floral ",
+    name: "The Short Sleeve Fig",
+    price: "₹1549.00",
+    url1: "/product/40",
+    url2: "/product/49",
+    url3: "/product/36",
+    url4: "/product/39",
+  },
+  {
+    id: 49,
+    img: Shirt13,
+    img2: Shirt1313,
+    name: "The Short Sleeve Carter",
+    price: "₹1499.00",
+  },
+
+  ];

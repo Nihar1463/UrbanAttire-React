@@ -55,120 +55,79 @@ import SFS8 from "../image/Men_arrival/shirt/SFS8.webp";
 import SFS88 from "../image/Men_arrival/shirt/SFS88.webp";
 import SFS9 from "../image/Men_arrival/shirt/SFS9.webp";
 
-
 import { Link } from "react-router-dom";
 import Head from "../Header/header";
 import Footer from "../Footer/footer";
 function All_Shirt() {
-  const New_Arrival = [
+  const Al_Shirt = [
     {
+      id: 36,
       img: Shirt1,
       img2: Shirt11,
       name: "The Short Sleeve Carter",
       price: "₹1499.00",
     },
     {
+      id: 37,
       img: Shirt2,
       img2: Shirt22,
       name: "The Short Sleeve Carter",
       price: "₹1499.00",
+      p:"New Arrival",
     },
     {
+      id: 38,
       img: Shirt3,
       img2: Shirt33,
       name: "The Short Sleeve Carter",
       price: "₹1499.00",
     },
     {
+      id: 39,
       img: Shirt4,
       img2: Shirt44,
       name: "The Short Sleeve Carter",
       price: "₹1499.00",
     },
     {
-      img: Shirt6,
-      img2: Shirt66,
-      name: "The Short Sleeve Carter",
-      price: "₹1499.00",
-    },
-    {
+      id: 40,
       img: Shirt5,
       img2: Shirt55,
       name: "The Short Sleeve Carter",
       price: "₹1499.00",
     },
     {
-      img: Shirt7,
-      img2: Shirt77,
+      id: 41,
+      img: Shirt6,
+      img2: Shirt66,
       name: "The Short Sleeve Carter",
       price: "₹1499.00",
     },
+    
+   
     {
-      img: Shirt8,
-      img2: Shirt88,
-      name: "The Short Sleeve Carter",
-      price: "₹1499.00",
-    },
-    {
-      img: Shirt9,
-      img2: Shirt99,
-      name: "The Short Sleeve Carter",
-      price: "₹1499.00",
-    },
-    {
-      img: Shirt10,
-      img2: Shirt1010,
-      name: "The Short Sleeve Carter",
-      price: "₹1499.00",
-    },
-    {
+      id: 47,
       img: Shirt111,
       img2: Shirt1111,
       name: "The Short Sleeve Carter",
       price: "₹1499.00",
+      p:"New Arrival",
     },
     {
+      id: 48,
       img: Shirt12,
       img2: Shirt1212,
       name: "The Short Sleeve Carter",
       price: "₹1499.00",
     },
     {
-      img: Shirt13,
-      img2: Shirt1313,
+      id: 49,
+      img: Shirt10,
+      img2: Shirt1010,
       name: "The Short Sleeve Carter",
       price: "₹1499.00",
     },
-    {
-      img: Shirt14,
-      img2: Shirt1414,
-      name: "The Short Sleeve Carter",
-      price: "₹1499.00",
-    },
-    {
-      img: Shirt15,
-      img2: Shirt1515,
-      name: "The Short Sleeve Carter",
-      price: "₹1499.00",
-    },
-    {
-      img: Shirt16,
-      img2: Shirt1616,
-      name: "The Short Sleeve Carter",
-      price: "₹1499.00",
-    },
-    {
-      img: Shirt17,
-      img2: Shirt1717,
-      name: "The Short Sleeve Carter",
-      price: "₹1499.00",
-    },
-    {
-      img: Shirt18,
-      img2: Shirt1818,
-      name: "The Short Sleeve Carter",
-      price: "₹1499.00",
-    },
+   
   ];
   return (
     <>
@@ -205,19 +164,21 @@ function All_Shirt() {
           </div>
           <div class="product_C2_arrrival ">
             <div class="content_arrrival ">
-              {New_Arrival.map((test, index) => (
-                <div class="items_Sw1" key={index}>
+              {Al_Shirt.map((product) => (
+                <div class="items_Sw1" key={product.id}>
                   <div class="itmImg_Sw1">
-                    {/* <div id="ppp">
-                      <p>New Arrival</p>
-                    </div> */}
-                    <img src={test.img} alt="" class="imgg_Sw1" />
-
-                    <img src={test.img2} alt="" class="imgg2_Sw1" />
+                    <div id="ppp">
+                      {/* <p>{product.p}</p> */}
+                      <p>{product.p}</p>
+                    </div>
+                    <Link to={`/product/${product.id}`}>
+                      <img src={product.img} alt="" class="imgg_Sw1" />
+                      <img src={product.img2} alt="" class="imgg2_Sw1" />
+                    </Link>
                   </div>
                   <div class="itm_name_Sw1">
-                    <h3>{test.name}</h3>
-                    <p>{test.price}</p>
+                    <h3>{product.name}</h3>
+                    <p>{product.price}</p>
 
                     <button class="cartbtn_Sw1">Add To Cart</button>
                   </div>
