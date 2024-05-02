@@ -22,6 +22,9 @@ import All_Shirt from "./Components/Shirt/All_shirt";
 import Full_Sleeve_Shirt from "./Components/Shirt/Full_Sleeve";
 import Half_Sleeve_Shirt from "./Components/Shirt/Half_Sleeve";
 import Login2 from "./Components/Login/login2";
+import All_Tshirt from "./Components/T_shirt/All_tshirt";
+import Half_sleeve_Tshirt from "./Components/T_shirt/Half_sleeve_tshirt";
+import Full_Sleeve_Tshirt from "./Components/T_shirt/Full_sleeve_tshirts";
 
 const router = createBrowserRouter([
   {
@@ -103,6 +106,18 @@ const router = createBrowserRouter([
   {
     path: "/product/:id",
     element: <Swiper2_blue />,
+  },
+  {
+    path: "/All_tshirt",
+    element: <All_Tshirt />,
+  },
+  {
+    path: "/Half_S_T-shirt",
+    element: <Half_sleeve_Tshirt />,
+  },
+  {
+    path: "/Full_S_T-shirt",
+    element: <Full_Sleeve_Tshirt />,
   },
 ]);
 const root = ReactDOM.createRoot(document.getElementById("root"));

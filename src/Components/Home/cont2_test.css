@@ -10,7 +10,6 @@
   font-family: "Rufina", serif;
   font-weight: 600;
   padding-left: 1vw;
-  
 }
 #main_item {
   background-color: #ffffff;
@@ -71,7 +70,6 @@
   padding-top: 4vw;
 }
 
-
 .product_C2_arrrival {
   /* display: flex; */
   /* background-color: beige; */
@@ -97,7 +95,7 @@
   margin: 1.25vw;
   border-radius: 1vw;
   cursor: pointer;
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  box-shadow: rgba(159, 76, 76, 0.35) 0px 5px 15px;
 }
 .itmImg_Sw1_cont2 {
   padding: 1vw 0vw;
@@ -178,7 +176,6 @@
   font-family: "Mohave", sans-serif;
   /* font-family: "Rufina", serif; */
 
-
   cursor: pointer;
 }
 #ppp_cont2 {
@@ -189,7 +186,7 @@
   z-index: 100;
   font-size: 1vw;
   /* transform: ; */
-  transform: translateX(-5.1vw) translateY(.2vw) rotateX(10deg) rotateY(-10deg)
+  transform: translateX(-5.4vw) translateY(0.2vw) rotateX(10deg) rotateY(-10deg)
     rotateZ(-40deg);
   color: white;
   font-family: "Mohave", sans-serif;

@@ -20,6 +20,8 @@ import Arrival_new from "./Page/Arrival_new";
 import New_arrival_shirt from "./Page/Shirt_arrival";
 import New_arrival_Tshirt from "./Page/Tshirt_arrival";
 import Shirt_arrival from "./Components/Mens_Arrival/Arrival_Shrit";
+import All_Tshirt from "./Components/T_shirt/All_tshirt";
+import Half_sleeve_Tshirt from "./Components/T_shirt/Half_sleeve_tshirt";
 // import Login2 from "./Components/Login/login2";
 
 function App() {
@@ -40,7 +42,8 @@ function App() {
       {/* <Cont2_test/> */}
       {/* <New_arrival_shirt/> */}
       {/* <New_arrival_Tshirt/> */}
-
+      {/* <All_Tshirt /> */}
+      {/* <Half_sleeve_Tshirt/> */}
       {/* <New_arrival />    */}
       {/* <Arrival_new />  */}
       {/* <OverSized /> */}

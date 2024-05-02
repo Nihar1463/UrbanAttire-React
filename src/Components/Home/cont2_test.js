@@ -28,14 +28,16 @@ import Imgg77srt from "../image/Men_arrival/shirt/srt77.jpg";
 import { Link } from "react-router-dom";
 
 function Cont2_test() {
-  const New_Arrival = [
+  const New_arrival = [
     {
+      id: 17,
       img: Imgg1srt,
       img2: Imgg11srt,
       name: "The Short Sleeve Carter",
-      price: "₹1499.00",
+      price: "₹199.00",
     },
     {
+      id: 18,
       img: Imgg3srt,
       img2: Imgg33srt,
       name: "The Short Sleeve Carter",
@@ -43,24 +45,27 @@ function Cont2_test() {
       arrival: "New Arrival",
     },
     {
+      id: 19,
       img: Imgg4srt,
       img2: Imgg44srt,
       name: "The Short Sleeve Carter",
       price: "₹1499.00",
     },
     {
+      id: 1,
       img: Imgg1,
       img2: Imgg11,
       name: "The Short Sleeve Carter",
       price: "₹1499.00",
     },
-   {
+    {
+      id: 22,
       img: Imgg6srt,
       img2: Imgg66srt,
       name: "The Short Sleeve Carter",
       price: "₹1499.00",
       arrival: "New Arrival",
-    }, 
+    },
   ];
   return (
     <>
@@ -68,19 +73,20 @@ function Cont2_test() {
         <p id="para">BEST SELLING SHIRTS</p>
         <div class="product_C2_arrrival ">
           <div class="content_arrrival_cont2 ">
-            {New_Arrival.map((test, index) => (
-              <div class="items_Sw1_cont2" key={index}>
+            {New_arrival.map((product) => (
+              <div class="items_Sw1_cont2" key={product.id}>
                 <div class="itmImg_Sw1_cont2">
                   <div id="ppp_cont2">
-                    <p>{test.arrival}</p>
+                    <p>Best Seller</p>
                   </div>
-                  <img src={test.img} alt="" class="imgg_Sw1_cont2" />
-
-                  <img src={test.img2} alt="" class="imgg2_Sw1_cont2" />
+                  <Link to={`/product/${product.id}`}>
+                    <img src={product.img} alt="" class="imgg_Sw1_cont2" />
+                    <img src={product.img2} alt="" class="imgg2_Sw1_cont2" />
+                  </Link>
                 </div>
                 <div class="itm_name_Sw1_cont2">
-                  <h3>{test.name}</h3>
-                  <p>{test.price}</p>
+                  <h3>{product.name}</h3>
+                  <p>{product.price}</p>
 
                   <button class="cartbtn_Sw1_cont2">Add To Cart</button>
                 </div>

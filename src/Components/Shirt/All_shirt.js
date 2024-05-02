@@ -64,14 +64,14 @@ function All_Shirt() {
       id: 36,
       img: Shirt1,
       img2: Shirt11,
-      name: "The Short Sleeve Carter",
-      price: "₹1499.00",
+      name: "The Point Blue Shirt",
+    price: "₹1799.00",
     },
     {
       id: 37,
       img: Shirt2,
       img2: Shirt22,
-      name: "The Short Sleeve Carter",
+      name: "The Point Rain Drop Shirt",
       price: "₹1499.00",
       p:"New Arrival",
     },
@@ -79,8 +79,8 @@ function All_Shirt() {
       id: 38,
       img: Shirt3,
       img2: Shirt33,
-      name: "The Short Sleeve Carter",
-      price: "₹1499.00",
+      name: "The Camo Point  Shirt",
+      price: "₹1099.00",
     },
     {
       id: 39,
@@ -93,15 +93,16 @@ function All_Shirt() {
       id: 40,
       img: Shirt5,
       img2: Shirt55,
-      name: "The Short Sleeve Carter",
-      price: "₹1499.00",
+      name: "The Jack in Ash Twist",
+      price: "₹1149.00",
+      p: "New Arrival",
     },
     {
       id: 41,
       img: Shirt6,
       img2: Shirt66,
-      name: "The Short Sleeve Carter",
-      price: "₹1499.00",
+      name: "The Jack Twist",
+      price: "₹1399.00",
     },
     
    
@@ -109,16 +110,16 @@ function All_Shirt() {
       id: 47,
       img: Shirt111,
       img2: Shirt1111,
-      name: "The Short Sleeve Carter",
-      price: "₹1499.00",
+      name: "Short Sleeve Floral",
+      price: "₹1399.00",
       p:"New Arrival",
     },
     {
       id: 48,
       img: Shirt12,
       img2: Shirt1212,
-      name: "The Short Sleeve Carter",
-      price: "₹1499.00",
+      name: "The Short Sleeve Fig",
+      price: "₹1549.00",
     },
     {
       id: 49,
@@ -157,9 +158,7 @@ function All_Shirt() {
               <Link to="/Short_sleeve_shirt">
                 <p>SHORT SLEEVE</p>
               </Link>
-              <Link to="/Oxford_shirt">
-                <p>OXFORDS</p>
-              </Link>
+             
             </div>
           </div>
           <div class="product_C2_arrrival ">

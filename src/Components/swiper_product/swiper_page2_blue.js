@@ -261,8 +261,8 @@ function Swip_p2_blue() {
                 </div>
 
                 <div class="itm_name_Sw2">
-                  <h3>The Short Sleeve Carter</h3>
-                  <p>₹1499.00</p>
+                  <h3>{product.name}</h3>
+                  <p>{product.price}</p>
 
                   <button class="cartbtn_Sw2">Add To Cart</button>
                 </div>
@@ -276,8 +276,8 @@ function Swip_p2_blue() {
                   <img src={product.r2H} alt="" class="imgg2_Sw2" />
                 </div>
                 <div class="itm_name_Sw2">
-                  <h3>The Short Sleeve California</h3>
-                  <p>₹1299.00</p>
+                  <h3>{product.name}</h3>
+                  <p>{product.price}</p>
                   <button class="cartbtn_Sw2">Add To Cart</button>
                 </div>
               </Link>
@@ -289,8 +289,8 @@ function Swip_p2_blue() {
                 <img src={product.r3H} alt="" class="imgg2_Sw2" />
               </div>
               <div class="itm_name_Sw2">
-                <h3>The Short Sleeve Maxico</h3>
-                <p>₹1299.00</p>
+                <h3>{product.name}</h3>
+                <p>{product.price}</p>
                 <button class="cartbtn_Sw2">Add To Cart</button>
               </div>
               </Link>
@@ -302,8 +302,8 @@ function Swip_p2_blue() {
                 <img src={product.r4H} alt="" class="imgg2_Sw2" />
               </div>
               <div class="itm_name_Sw2">
-                <h3>The Short Sleeve Maxico</h3>
-                <p>₹1299.00</p>
+                <h3>{product.name}</h3>
+                <p>{product.price}</p>
                 <button class="cartbtn_Sw2">Add To Cart</button>
               </div>
               </Link>
