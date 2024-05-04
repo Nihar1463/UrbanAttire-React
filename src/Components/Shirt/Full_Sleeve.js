@@ -58,7 +58,12 @@ import SFS9 from "../image/Men_arrival/shirt/SFS9.webp";
 import { Link } from "react-router-dom";
 import Head from "../Header/header";
 import Footer from "../Footer/footer";
+
+import { useCart } from "../Context/CartContext";
+
+
 function All_Shirt() {
+  const { addToCart } = useCart();
   const Al_Shirt = [
     {
       id: 41,
@@ -158,7 +163,7 @@ function All_Shirt() {
                     <h3>{product.name}</h3>
                     <p>{product.price}</p>
 
-                    <button class="cartbtn_Sw1">Add To Cart</button>
+                    <button class="cartbtn_Sw1" onClick={() => addToCart(product)}>Add To Cart</button>
                   </div>
                 </div>
               ))}

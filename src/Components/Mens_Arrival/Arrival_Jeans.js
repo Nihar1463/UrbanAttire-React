@@ -15,7 +15,11 @@ import Ja12 from "../image/Men_arrival/Jeans/ja12.webp";
 import { Link } from "react-router-dom";
 import Head from "../Header/header";
 import Footer from "../Footer/footer";
+
+import { useCart } from "../Context/CartContext";
+
 function Jeans_arrival() {
+  const { addToCart } = useCart();
   const Jeans = [
     {
       id: 29,
@@ -92,7 +96,7 @@ function Jeans_arrival() {
                     <h3>{product.name}</h3>
                     <p>{product.price}</p>
 
-                    <button class="cartbtn_Sw1">Add To Cart</button>
+                    <button class="cartbtn_Sw1" onClick={() => addToCart(product)}>Add To Cart</button>
                   </div>
                 </div>
               ))}

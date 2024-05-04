@@ -60,7 +60,13 @@ import Head from "../Header/header";
 import Footer from "../Footer/footer";
 import { itemData } from "./Data";
 
+
+import { useCart } from "../Context/CartContext";
+
+
+
 function New_arrival() {
+  const { addToCart } = useCart();
   const New_arrival = [
     {
       id: 1,
@@ -251,7 +257,7 @@ function New_arrival() {
                     <h3>{product.name}</h3>
                     <p>{product.price}</p>
 
-                    <button class="cartbtn_Sw1">Add To Cart</button>
+                    <button class="cartbtn_Sw1" onClick={() => addToCart(product)}>Add To Cart</button>
                   </div>
                 </div>
               ))}

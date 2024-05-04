@@ -1,5 +1,5 @@
 import "./swiper_page1.css";
-import { ScrollRestoration } from "react-router-dom";
+import { Link, ScrollRestoration } from "react-router-dom";
 import Imgg from "../image/swiper_img/swip1.webp";
 import Imgg1 from "../image/swiper_img/itm1.webp";
 import Imgg11 from "../image/swiper_img/item11.webp";
@@ -28,8 +28,10 @@ function Swip_p1() {
           <div class="content_Sw11">
             <div class="items_Sw11">
               <div class="itmImg_Sw11">
-                <img src={Imgg1} alt="" class="imgg_Sw11" />
-                <img src={Imgg11} alt="" class="imgg2_Sw11" />
+                <Link to="/product/1">
+                  <img src={Imgg1} alt="" class="imgg_Sw11" />
+                  <img src={Imgg11} alt="" class="imgg2_Sw11" />
+                </Link>
               </div>
               <div class="itm_name_Sw1">
                 <h3>The Short Sleeve Carter</h3>
@@ -40,8 +42,10 @@ function Swip_p1() {
             </div>
             <div class="items_Sw11">
               <div class="itmImg_Sw11">
-                <img src={Imgg2} alt="" class="imgg_Sw11" />
-                <img src={Imgg22} alt="" class="imgg2_Sw11" />
+                <Link to="/product/2">
+                  <img src={Imgg2} alt="" class="imgg_Sw11" />
+                  <img src={Imgg22} alt="" class="imgg2_Sw11" />
+                </Link>
               </div>
               <div class="itm_name_Sw1">
                 <h3>The Short Sleeve California</h3>
@@ -51,8 +55,10 @@ function Swip_p1() {
             </div>
             <div class="items_Sw11">
               <div class="itmImg_Sw11">
-                <img src={Imgg3} alt="" class="imgg_Sw11" />
-                <img src={Imgg33} alt="" class="imgg2_Sw11" />
+                <Link to="/product/4">
+                  <img src={Imgg3} alt="" class="imgg_Sw11" />
+                  <img src={Imgg33} alt="" class="imgg2_Sw11" />
+                </Link>
               </div>
               <div class="itm_name_Sw1">
                 <h3>The Short Sleeve Maxico</h3>

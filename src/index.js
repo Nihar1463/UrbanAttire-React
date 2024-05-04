@@ -25,6 +25,10 @@ import Login2 from "./Components/Login/login2";
 import All_Tshirt from "./Components/T_shirt/All_tshirt";
 import Half_sleeve_Tshirt from "./Components/T_shirt/Half_sleeve_tshirt";
 import Full_Sleeve_Tshirt from "./Components/T_shirt/Full_sleeve_tshirts";
+import AddToCart from "./Components/Add to cart/AddToCart";
+
+import { CartProvider } from "./Components/Context/CartContext";
+import Jeans_arrival from "./Jeans/cont_jeans";
 
 const router = createBrowserRouter([
   {
@@ -119,11 +123,21 @@ const router = createBrowserRouter([
     path: "/Full_S_T-shirt",
     element: <Full_Sleeve_Tshirt />,
   },
+  {
+    path: "/Add_to_cart",
+    element: <AddToCart />,
+  },
+  {
+    path: "/Jeans_arrival1",
+    element: <Jeans_arrival />,
+  },
 ]);
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <RouterProvider router={router} />
+    <CartProvider>
+      <RouterProvider router={router} />
+    </CartProvider>
   </React.StrictMode>
 );
 

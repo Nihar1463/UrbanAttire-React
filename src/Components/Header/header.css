@@ -79,12 +79,15 @@ header #hright {
 .dropbtn {
   background-color: transparent;
   cursor: pointer;
-
+  margin-left: .5vw;
   padding: 0;
   font-size: 1.1vw;
   border: none;
   font-family: "Mohave", sans-serif;
   font-weight: 600;
+}
+.dropbtn i{
+  margin-right: .3vw;
 }
 
 .dropdown {

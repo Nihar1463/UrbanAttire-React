@@ -11,7 +11,7 @@ const AddToCart = () => {
     return (
         <div className={styles.container}>
             {cartItems.length === 0 ? (
-                <h1 className={styles.heading}>Your Cart is Empty</h1>
+                <h1 className={styles.heading}>Your Cart is Empty!!</h1>
             ) : (
                 <div>
                     <div className={styles.headingContain}>

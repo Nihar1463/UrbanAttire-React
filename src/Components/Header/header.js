@@ -32,12 +32,14 @@ function Head() {
 
               <Link to="/All_Shirt">Men's Shirts</Link>
               <Link to="/All_tshirt">Men's T-Shirts</Link>
-              <a href="#">Men's Jeans</a>
+              <Link to="/New_arrival_jeans">Men's Jeans</Link>
               {/* <a href="#">Men's shorts</a> */}
             </div>
           </div>
           <div class="dropdown">
-            <button class="dropbtn">Accessories</button>
+            <Link to="/product/71">
+              <button class="dropbtn">Accessories</button>
+            </Link>
           </div>
           <div class="dropdown">
             <button class="dropbtn">Discover</button>
@@ -46,7 +48,12 @@ function Head() {
             </div>
           </div>
           <div class="dropdown">
-            <button class="dropbtn">Clearance</button>
+            <Link to="/Add_to_cart">
+              <button class="dropbtn">
+                <i class="fa-solid fa-cart-shopping" />
+                Cart
+              </button>
+            </Link>
           </div>
         </div>
       </header>

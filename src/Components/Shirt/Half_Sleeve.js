@@ -17,7 +17,12 @@ import Srt66 from "../image/Men_arrival/shirt/srt66.webp";
 import { Link } from "react-router-dom";
 import Head from "../Header/header";
 import Footer from "../Footer/footer";
+
+import { useCart } from "../Context/CartContext";
+
+
 function Half_Sleeve_Shirt() {
+  const { addToCart } = useCart();
   const All_Shirtss = [
     {
       id: 17,
@@ -106,7 +111,7 @@ function Half_Sleeve_Shirt() {
                     <h3>{product.name}</h3>
                     <p>{product.price}</p>
 
-                    <button class="cartbtn_Sw1">Add To Cart</button>
+                    <button class="cartbtn_Sw1" onClick={() => addToCart(product)}>Add To Cart</button>
                   </div>
                 </div>
               ))}

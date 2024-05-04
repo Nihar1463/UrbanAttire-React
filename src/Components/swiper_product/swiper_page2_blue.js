@@ -31,6 +31,7 @@ import Footer from "../Footer/footer";
 import { Navigation, Pagination, Mousewheel, Keyboard } from "swiper/modules";
 
 import { itemData } from "../Mens_Arrival/Data";
+import { useCart } from "../Context/CartContext";
 
 // import required modules
 import { Link, useParams } from "react-router-dom";
@@ -38,6 +39,7 @@ import { Link, useParams } from "react-router-dom";
 function Swip_p2_blue() {
   const [product, setProduct] = useState({});
   const { id } = useParams();
+  const { addToCart } = useCart();
 
   useEffect(() => {
     const filterProduct = itemData.filter((product) => product.id == id);
@@ -116,26 +118,41 @@ function Swip_p2_blue() {
                 </Link>
               </div> */}
             </div>
-            <p>Size:XS-34</p>
+            <p >Size:<b id="size_change">XS-34</b></p>
             <div class="size_Sw2">
-              <div class="size_SML_Sw2">
+              <div
+                class="size_SML_Sw2"
+                onClick={() => {
+                  document.getElementById("size_change").innerText =
+                    "XS-34";
+                }}
+              >
                 XS <br />
                 34
               </div>
-              <div class="size_SML_Sw2">
+              <div class="size_SML_Sw2" onClick={() => {
+                  document.getElementById("size_change").innerText =
+                    "S-36";
+                }}>
                 S <br />
                 36
               </div>
-              <div class="size_SML_Sw2">
+              <div class="size_SML_Sw2" onClick={() => {
+                  document.getElementById("size_change").innerText =
+                    "M-38";
+                }}>
                 M <br />
                 38
               </div>
-              <div class="size_SML_Sw2">
+              <div class="size_SML_Sw2" onClick={() => {
+                  document.getElementById("size_change").innerText =
+                    "L-40";
+                }}>
                 L <br />
                 40
               </div>
             </div>
-            <button>ADD TO CART</button>
+            <button onClick={() => addToCart(product)}>ADD TO CART</button>
             <div id="details_Sw2">
               <div id="detail_Left_Sw2">
                 <p class="p_dtl_Sw2">
@@ -284,28 +301,28 @@ function Swip_p2_blue() {
             </div>
             <div class="items_Sw2">
               <Link to={product.url3}>
-              <div class="itmImg_Sw2">
-                <img src={product.r3} alt="" class="imgg_Sw2" />
-                <img src={product.r3H} alt="" class="imgg2_Sw2" />
-              </div>
-              <div class="itm_name_Sw2">
-                <h3>{product.name}</h3>
-                <p>{product.price}</p>
-                <button class="cartbtn_Sw2">Add To Cart</button>
-              </div>
+                <div class="itmImg_Sw2">
+                  <img src={product.r3} alt="" class="imgg_Sw2" />
+                  <img src={product.r3H} alt="" class="imgg2_Sw2" />
+                </div>
+                <div class="itm_name_Sw2">
+                  <h3>{product.name}</h3>
+                  <p>{product.price}</p>
+                  <button class="cartbtn_Sw2">Add To Cart</button>
+                </div>
               </Link>
             </div>
             <div class="items_Sw2">
-            <Link to={product.url4}>
-              <div class="itmImg_Sw2">
-                <img src={product.r4} alt="" class="imgg_Sw2" />
-                <img src={product.r4H} alt="" class="imgg2_Sw2" />
-              </div>
-              <div class="itm_name_Sw2">
-                <h3>{product.name}</h3>
-                <p>{product.price}</p>
-                <button class="cartbtn_Sw2">Add To Cart</button>
-              </div>
+              <Link to={product.url4}>
+                <div class="itmImg_Sw2">
+                  <img src={product.r4} alt="" class="imgg_Sw2" />
+                  <img src={product.r4H} alt="" class="imgg2_Sw2" />
+                </div>
+                <div class="itm_name_Sw2">
+                  <h3>{product.name}</h3>
+                  <p>{product.price}</p>
+                  <button class="cartbtn_Sw2">Add To Cart</button>
+                </div>
               </Link>
             </div>
           </div>

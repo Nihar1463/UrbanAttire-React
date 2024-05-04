@@ -14,14 +14,14 @@ function Cont1() {
           <img src={Model6} alt="" id="model1" />
         </div>
         <div id="cont1_right">
-          <input type="text" placeholder="Search..." class="search" />
+          {/* <input type="text" placeholder="Search..." class="search" />
           <button class="searchbtn">
             <i class="fa-solid fa-magnifying-glass"></i>
           </button>
           <button class="wishlist">♥ Wishlist</button>
           <button class="cart">
             <i class="fa-solid fa-cart-shopping"></i>
-          </button>
+          </button> */}
           <div id="cont1_center">
             <img src={Urban} alt="" id="urban" />
             <h1>GOODBYE SWEATS, HELLO DENIM</h1>

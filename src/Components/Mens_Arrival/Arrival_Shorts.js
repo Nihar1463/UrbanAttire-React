@@ -1,6 +1,7 @@
 import React from "react";
 import "./New_arrival.css";
 import Im1 from "../image/Men_arrival/new_arivalc1.webp";
+import { ScrollRestoration } from "react-router-dom";
 
 import Short1 from "../image/Men_arrival/short/short3.jpg";
 import Short11 from "../image/Men_arrival/short/short33.jpg";
@@ -16,7 +17,13 @@ import Short44 from "../image/Men_arrival/short/short66.webp";
 import { Link } from "react-router-dom";
 import Head from "../Header/header";
 import Footer from "../Footer/footer";
+
+import { useCart } from "../Context/CartContext";
+
+
+
 function Shorts_arrival() {
+  const { addToCart } = useCart();
   const Short = [
     {
       id: 32,
@@ -100,7 +107,7 @@ function Shorts_arrival() {
                     <h3>{product.name}</h3>
                     <p>{product.price}</p>
 
-                    <button class="cartbtn_Sw1">Add To Cart</button>
+                    <button class="cartbtn_Sw1" onClick={() => addToCart(product)}>Add To Cart</button>
                   </div>
                 </div>
               ))}
@@ -109,6 +116,7 @@ function Shorts_arrival() {
         </div>
       </div>
       <Footer />
+      <ScrollRestoration />
     </>
   );
 }

@@ -379,6 +379,39 @@ import SFS75 from "../image/Men_arrival/shirt/S35.webp";
 import SFS76 from "../image/Men_arrival/shirt/S36h.webp";
 import SFS777 from "../image/Men_arrival/shirt/S37v.webp";
 
+// accessories
+import C5itm7 from "../image/Accessories/acce2.webp";
+import Ac12 from "../image/ac12.webp";
+import Ac13 from "../image/ac13.webp";
+import Ac14 from "../image/ac14.webp";
+import Ac15 from "../image/ac15.webp";
+import Ac16 from "../image/ac16h.webp";
+import C5itm8 from "../image/Accessories/acce3.webp";
+import C5itm9 from "../image/Accessories/acce4.webp";
+import C5itm10 from "../image/Accessories/acce5.webp";
+import C5itm11 from "../image/Accessories/acce6.webp";
+import Ac22 from "../image/Accessories/ac22.webp";
+import Ac23 from "../image/Accessories/ac23.webp";
+import Ac24 from "../image/Accessories/ac24.webp";
+import Ac25 from "../image/Accessories/ac25.webp";
+import Ac26 from "../image/Accessories/ac26h.webp";
+import Ac32 from "../image/Accessories/ac32.jpg";
+import Ac33 from "../image/Accessories/ac33.webp";
+import Ac34 from "../image/Accessories/ac34.webp";
+import Ac35 from "../image/Accessories/ac35.webp";
+import Ac36 from "../image/Accessories/ac36h.webp";
+import Ac42 from "../image/Accessories/ac42.webp";
+import Ac43 from "../image/Accessories/ac43.webp";
+import Ac44 from "../image/Accessories/ac44.webp";
+import Ac45 from "../image/Accessories/ac45.webp";
+import Ac46 from "../image/Accessories/ac46h.webp";
+import Ac52 from "../image/Accessories/ac52.webp";
+import Ac53 from "../image/Accessories/ac53.webp";
+import Ac54 from "../image/Accessories/ac54.webp";
+import Ac55 from "../image/Accessories/ac55.webp";
+import Ac56 from "../image/Accessories/ac56h.webp";
+import Ac57 from "../image/Accessories/ac57v.webp";
+
 export const itemData = [
   {
     id: 1,
@@ -527,7 +560,7 @@ export const itemData = [
     url3: "/product/36",
     url4: "/product/39",
     color: " Stone Chipped Canvas",
-    name: "The Short Sleeve Carter",
+    name: "The Chipped Canvas",
     price: "₹1499.00",
   },
   {
@@ -1187,7 +1220,7 @@ export const itemData = [
     r3H: RT2H,
     r4: Imgg2T,
     r4H: Imgg22T,
-    
+
     color: "Heather Blue Linen Tweed",
     name: "The Point Blue Shirt",
     price: "₹1799.00",
@@ -1217,7 +1250,7 @@ export const itemData = [
     color: "Rain Drop Camo",
     name: "The Point Rain Drop Shirt",
     price: "₹1499.00",
-    
+
     url1: "/product/12",
     url2: "/product/1",
     url3: "/product/3",
@@ -1299,7 +1332,6 @@ export const itemData = [
     url2: "/product/37",
     url3: "/product/38",
     url4: "/product/2",
-    
   },
   {
     id: 41,
@@ -1408,5 +1440,132 @@ export const itemData = [
     img2: Shirt1313,
     name: "The Short Sleeve Carter",
     price: "₹1499.00",
+  },
+
+  // accesories
+  {
+    id: 70,
+    img: C5itm7,
+    img2: Ac12,
+    img3: Ac13,
+    img4: Ac14,
+    img5: Ac15,
+    img6: Ac16,
+    img7: Ac15,
+    r1: C5itm8,
+    r1H: Ac22,
+    r2: Ac54,
+    r2H: Ac53,
+    r3: C5itm9,
+    r3H: Ac32,
+    r4: C5itm10,
+    r4H: Ac42,
+    name: "The Tooled Belt",
+    price: "₹799.00",
+    url1: "/product/71",
+    url2: "/product/74",
+    url3: "/product/72",
+    url4: "/product/73",
+  },
+  {
+    id: 71,
+    img: C5itm8,
+    img2: Ac22,
+    img3: Ac23,
+    img4: Ac24,
+    img5: Ac25,
+    img6: Ac26,
+    img7: Ac25,
+    r1: C5itm8,
+    r1H: Ac22,
+    r2: Ac54,
+    r2H: Ac53,
+    r3: C5itm9,
+    r3H: Ac32,
+    r4: C5itm10,
+    r4H: Ac42,
+    name: "The Braided Belt",
+    price: "₹999.00",
+    url1: "/product/71",
+    url2: "/product/74",
+    url3: "/product/72",
+    url4: "/product/73",
+
+  },
+  {
+    id: 72,
+    img: C5itm9,
+    img2: Ac32,
+    img3: Ac33,
+    img4: Ac34,
+    img5: Ac35,
+    img6: Ac36,
+    img7: Ac33,
+    r1: C5itm8,
+    r1H: Ac22,
+    r2: Ac54,
+    r2H: Ac53,
+    r3: C5itm9,
+    r3H: Ac32,
+    r4: C5itm10,
+    r4H: Ac42,
+    name: "The Legend Amber",
+    price: "₹799.00",
+    url1: "/product/71",
+    url2: "/product/74",
+    url3: "/product/72",
+    url4: "/product/73",
+  },
+  {
+    id: 73,
+    img: C5itm10,
+    img2: Ac42,
+    img3: Ac43,
+    img4: Ac44,
+    img5: Ac45,
+    img6: Ac46,
+    img7: Ac45,
+    r1: C5itm8,
+    r1H: Ac22,
+    r2: Ac54,
+    r2H: Ac53,
+    r3: C5itm9,
+    r3H: Ac32,
+    r4: C5itm10,
+    r4H: Ac42,
+    name: "The Foundation Belt",
+    price: "₹699.00",
+    url1: "/product/71",
+    url2: "/product/74",
+    url3: "/product/72",
+    url4: "/product/73",
+    name: "The Tooled Belt",
+    price: "₹799.00",
+  },
+  {
+    id: 74,
+    img: Ac54,
+    img2: Ac53,
+    img3: Ac54,
+    img4: Ac55,
+    img5: Ac54,
+    img6: Ac56,
+    img7: Ac57,
+    r1: C5itm8,
+    r1H: Ac22,
+    r2: Ac54,
+    r2H: Ac53,
+    r3: C5itm9,
+    r3H: Ac32,
+    r4: C5itm10,
+    r4H: Ac42,
+    name: "The Weekender Duffle",
+    price: "₹1199.00",
+    url1: "/product/71",
+    url2: "/product/74",
+    url3: "/product/72",
+    url4: "/product/73",
+    
+   
   },
 ];

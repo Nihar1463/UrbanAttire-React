@@ -26,21 +26,24 @@ import Imgg7srt from "../image/Men_arrival/shirt/srt7.webp";
 import Imgg77srt from "../image/Men_arrival/shirt/srt77.jpg";
 
 import { Link } from "react-router-dom";
+import { useCart } from "../Context/CartContext";
 
 function Cont2_test() {
+  const { addToCart } = useCart();
+
   const New_arrival = [
     {
       id: 17,
       img: Imgg1srt,
       img2: Imgg11srt,
-      name: "The Short Sleeve Carter",
-      price: "₹199.00",
+      name: "The Short Sleeve Hawthorne",
+      price: "₹1199.00",
     },
     {
       id: 18,
       img: Imgg3srt,
       img2: Imgg33srt,
-      name: "The Short Sleeve Carter",
+      name: "The Short Sleeve Moss Floral",
       price: "₹1499.00",
       arrival: "New Arrival",
     },
@@ -48,8 +51,8 @@ function Cont2_test() {
       id: 19,
       img: Imgg4srt,
       img2: Imgg44srt,
-      name: "The Short Sleeve Carter",
-      price: "₹1499.00",
+      name: "The Harwich Brick Shirt",
+      price: "₹1099.00",
     },
     {
       id: 1,
@@ -62,7 +65,7 @@ function Cont2_test() {
       id: 22,
       img: Imgg6srt,
       img2: Imgg66srt,
-      name: "The Short Sleeve Carter",
+      name: " The Short Sleeve Floral",
       price: "₹1499.00",
       arrival: "New Arrival",
     },
@@ -88,7 +91,7 @@ function Cont2_test() {
                   <h3>{product.name}</h3>
                   <p>{product.price}</p>
 
-                  <button class="cartbtn_Sw1_cont2">Add To Cart</button>
+                  <button class="cartbtn_Sw1_cont2" onClick={() => addToCart(product)}>Add To Cart</button>
                 </div>
               </div>
             ))}

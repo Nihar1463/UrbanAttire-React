@@ -10,13 +10,20 @@
 
 .heading {
     font-family: "Nunito", sans-serif;
-    font-size: 4vh;
+    font-family: "Mohave", sans-serif;
+    color: rgb(170, 66, 43);
+/* background-color: #764b4b38; */
+    /* font-size: 4vh; */
 }
 
 .totalPrice {
     text-align: right;
-    font-family: "Nunito", sans-serif;
-    font-size: 4vh;
+    /* font-family: "Nunito", sans-serif; */
+  font-family: "Mohave", sans-serif;
+  /* font-family: "Rufina", serif; */
+
+    color: rgb(170, 66, 43);
+    /* font-size: 4vh; */
 }
 
 
