@@ -9,6 +9,7 @@ import Pymt5 from "../image/Diners_payment.webp";
 import Pymt6 from "../image/Discover_payment.webp";
 import Pymt7 from "../image/MasterCard.webp";
 import LogoF from "../image/logo22-removebg-preview.png";
+import { Link } from "react-router-dom";
 function Footer() {
   return (
     <>
@@ -31,8 +32,12 @@ function Footer() {
 
           <div class="ft2_item2">
             <h4>MENU</h4>
-            <p>Mens</p>
-            <p>Accessories</p>
+            <Link to="/New_Arrival">
+              <p>Mens</p>
+            </Link>
+            <Link to="/product/71">
+              <p>Accessories</p>
+            </Link>
             <p>Discover</p>
             <p>Clearance</p>
           </div>
@@ -52,9 +57,15 @@ function Footer() {
           </div>
           <div class="ft2_item5">
             <h4>SOCIAL</h4>
-            <p>Twitter</p>
-            <p>Instagram</p>
-            <p>Facebook</p>
+            <Link to="https://twitter.com/?lang=en" target="_blank">
+              <p>Twitter</p>
+            </Link>
+            <Link to="https://www.instagram.com/" target="_blank">
+              <p>Instagram</p>
+            </Link>
+            <Link to="https://www.facebook.com/" target="_blank">
+              <p>Facebook</p>
+            </Link>
             <p>Pinterest</p>
           </div>
         </div>
