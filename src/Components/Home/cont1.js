@@ -2,6 +2,7 @@ import "./cont1.css";
 import Model6 from "../image/model6.jpg";
 import Model3 from "../image/model3.jpg";
 import Urban from "../image/URBAN.png";
+import { Link } from "react-router-dom";
 
 function Cont1() {
   return (
@@ -26,7 +27,9 @@ function Cont1() {
             <img src={Urban} alt="" id="urban" />
             <h1>GOODBYE SWEATS, HELLO DENIM</h1>
             <h3>Better days are coming, take them on in style.</h3>
-            <button id="shop">Shop Now</button>
+            <Link to="/New_Arrival">
+              <button id="shop">Shop Now</button>
+            </Link>
           </div>
           <img src={Model3} alt="" id="model1" />
         </div>

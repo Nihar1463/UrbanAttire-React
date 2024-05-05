@@ -27,6 +27,7 @@ function Jeans_arrival() {
       img2: Ja12,
       name: "The Democratic Jean",
       price: "₹2500.00",
+      off:"33% OFF",
     },
     {
       id: 30,
@@ -41,6 +42,8 @@ function Jeans_arrival() {
       img2: JEN33,
       name: "The Slim Selvage Jean ",
       price: "₹2999.00",
+      off:"15% OFF",
+
     },
   ];
   return (
@@ -85,7 +88,7 @@ function Jeans_arrival() {
                 <div class="items_Sw1" key={product.id}>
                   <div class="itmImg_Sw1">
                     <div id="ppp">
-                      <p>New Arrival</p>
+                      <p>{product.off}</p>
                     </div>
                     <Link to={`/product/${product.id}`}>
                       <img src={product.img} alt="" class="imgg_Sw1" />

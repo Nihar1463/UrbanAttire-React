@@ -1,5 +1,5 @@
 #cont6 {
-  background: url(../image/cont6.jpg);
+  background: url(../image/Men_arrival//short/shrt16H.webp);
   /* background: url(../image/con6video.mp4); */
   height: 80vh;
   width: 100%;
@@ -8,5 +8,22 @@
   background-repeat: no-repeat;
   background-attachment: fixed;
   filter: brightness(70%);
+  /* z-index: -10; */
+}
+#cont6  h1{
+  text-align: center;
+  /* align-items: center; */
+  /* display: flex; */
+  /* justify-content: center; */
+  margin: 13vw 27vw;
+position: absolute;
+font-size: 5vw;
+color:#ffffff;
+/* z-index: 100; */
+/* font-family: "Mohave", sans-serif; */
+font-family: "Rufina", serif;
+
+
+
 }
 

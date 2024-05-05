@@ -58,6 +58,7 @@ import SFS9 from "../image/Men_arrival/shirt/SFS9.webp";
 import { Link } from "react-router-dom";
 import Head from "../Header/header";
 import Footer from "../Footer/footer";
+import { ScrollRestoration } from "react-router-dom";
 
 import { useCart } from "../Context/CartContext";
 
@@ -79,6 +80,7 @@ function All_Shirt() {
       name: "The Point Rain Drop Shirt",
       price: "₹1499.00",
       p:"New Arrival",
+      off:"42% OFF",
     },
     {
       id: 38,
@@ -101,6 +103,7 @@ function All_Shirt() {
       name: "The Jack in Ash Twist",
       price: "₹1149.00",
       p: "New Arrival",
+      off:"30% OFF",
     },
     {
       id: 41,
@@ -118,6 +121,8 @@ function All_Shirt() {
       name: "Short Sleeve Floral",
       price: "₹1399.00",
       p:"New Arrival",
+      off:"23% OFF",
+
     },
     {
       id: 48,
@@ -173,7 +178,8 @@ function All_Shirt() {
                   <div class="itmImg_Sw1">
                     <div id="ppp">
                       {/* <p>{product.p}</p> */}
-                      <p>{product.p}</p>
+                      
+                      <p>{product.off}</p>
                     </div>
                     <Link to={`/product/${product.id}`}>
                       <img src={product.img} alt="" class="imgg_Sw1" />
@@ -193,6 +199,8 @@ function All_Shirt() {
         </div>
       </div>
       <Footer />
+      <ScrollRestoration />
+
     </>
   );
 }

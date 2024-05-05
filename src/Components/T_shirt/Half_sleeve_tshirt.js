@@ -45,6 +45,7 @@ function Half_sleeve_Tshirt() {
       name: "The Short Sleeve Carter",
       price: "₹1499.00",
       P: "New Arrival",
+      off:"35% OFF",
     },
     {
       id: 26,
@@ -59,6 +60,7 @@ function Half_sleeve_Tshirt() {
       img2: Imgg11T,
       name: "The Heavy Bag Tee Cherry ",
       price: "₹999.00",
+      off:"65% OFF",
     },
   ];
   return (
@@ -97,7 +99,8 @@ function Half_sleeve_Tshirt() {
                 <div class="items_Sw1" key={product.id}>
                   <div class="itmImg_Sw1">
                     <div id="ppp">
-                      <p>{product.P}</p>
+                      {/* <p>{product.P}</p> */}
+                      <p>{product.off}</p>
                     </div>
                     <Link to={`/product/${product.id}`}>
                       <img src={product.img} alt="" class="imgg_Sw1" />
