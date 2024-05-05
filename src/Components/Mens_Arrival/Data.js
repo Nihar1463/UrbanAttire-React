@@ -1490,7 +1490,6 @@ export const itemData = [
     url2: "/product/74",
     url3: "/product/72",
     url4: "/product/73",
-
   },
   {
     id: 72,
@@ -1565,7 +1564,5 @@ export const itemData = [
     url2: "/product/74",
     url3: "/product/72",
     url4: "/product/73",
-    
-   
   },
 ];
