@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/UrbanAttrire-React/static/css/main.077a9454.css",
+    "main.css": "/UrbanAttrire-React/static/css/main.263374b9.css",
     "main.js": "/UrbanAttrire-React/static/js/main.5b5ee2a1.js",
     "static/js/453.05288c44.chunk.js": "/UrbanAttrire-React/static/js/453.05288c44.chunk.js",
     "static/media/con6video.mp4": "/UrbanAttrire-React/static/media/con6video.f0edd02bd86b8e365490.mp4",
@@ -437,12 +437,12 @@
     "static/media/Visa.webp": "/UrbanAttrire-React/static/media/Visa.405d64302a6b22e7f5e5.webp",
     "static/media/MasterCard.webp": "/UrbanAttrire-React/static/media/MasterCard.07c45406da2583d57984.webp",
     "index.html": "/UrbanAttrire-React/index.html",
-    "main.077a9454.css.map": "/UrbanAttrire-React/static/css/main.077a9454.css.map",
+    "main.263374b9.css.map": "/UrbanAttrire-React/static/css/main.263374b9.css.map",
     "main.5b5ee2a1.js.map": "/UrbanAttrire-React/static/js/main.5b5ee2a1.js.map",
     "453.05288c44.chunk.js.map": "/UrbanAttrire-React/static/js/453.05288c44.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.077a9454.css",
+    "static/css/main.263374b9.css",
     "static/js/main.5b5ee2a1.js"
   ]
 }
