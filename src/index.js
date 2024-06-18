@@ -29,6 +29,7 @@ import AddToCart from "./Components/Add to cart/AddToCart";
 
 import { CartProvider } from "./Components/Context/CartContext";
 import Jeans_arrival from "./Jeans/cont_jeans";
+import Loc from "./Components/Footer/Loc";
 
 const router = createBrowserRouter([
   {
@@ -130,6 +131,10 @@ const router = createBrowserRouter([
   {
     path: "/Jeans_arrival1",
     element: <Jeans_arrival />,
+  },
+  {
+    path: "/Location",
+    element: <Loc />,
   },
 ]);
 const root = ReactDOM.createRoot(document.getElementById("root"));
